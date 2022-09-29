@@ -1,0 +1,2773 @@
+<!doctype html>
+<html style='font-size:16px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; padding-bottom: 0px !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+
+
+@font-face{font-family:"iconfont";src:url('file:///C://Users//Sirius//AppData//Roaming//Typora/themes/source/dy/iconfont.woff2') format('woff2'),url('file:///C://Users//Sirius//AppData//Roaming//Typora/themes/source/dy/iconfont.woff') format('woff'),url('file:///C://Users//Sirius//AppData//Roaming//Typora/themes/source/dy/iconfont.ttf') format('truetype');}.iconfont{font-family:"iconfont" !important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}.icon-info2:before{content:"\e746";}.icon-093info:before{content:"\e664";}.icon-institueinfo:before{content:"\e613";}.icon-fengshan:before{content:"\e600";}.icon-fengshan1:before{content:"\e6cc";}.icon-a-28tongfengfengshan:before{content:"\e604";}.icon-a-28atongfengfengshan:before{content:"\e605";}.icon-weibiaoti-:before{content:"\e689";}.icon-fengche2:before{content:"\e625";}
+/* cyrillic-ext */
+/* cyrillic */
+/* greek-ext */
+/* greek */
+/* vietnamese */
+/* latin-ext */
+/* latin */
+/* cyrillic-ext */
+/* cyrillic */
+/* greek-ext */
+/* greek */
+/* vietnamese */
+/* latin-ext */
+/* latin */
+/* cyrillic-ext */
+/* cyrillic */
+/* greek-ext */
+/* greek */
+/* vietnamese */
+/* latin-ext */
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'),
+    url('file:///C://Users//Sirius//AppData//Roaming//Typora/themes/source/zj/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@import '';
+@import '';
+
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-size: 18px;
+    font-family: var(--body-font);
+    color: var(--body-color);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.8rem;
+    letter-spacing: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: justify;
+    text-justify: inter-ideograph; 
+}
+
+.window * {
+    color: var(--body-color) !important;
+}
+.nav-group-item.active {
+    color: black !important;
+}
+
+.typora-sourceview-on #toggle-sourceview-btn {
+    color: black;
+}
+#sidebar-files-menu li a {
+    color: var(--body-color) !important;
+}
+#file-library-search-panel input {
+    color: var(--para-color) !important;
+}
+#sidebar-loading-template {
+    background-color: var(--bg-color) !important;
+}
+ul#sidebar-files-menu.dropdown-menu {
+    background-color: var(--focus-color);
+}
+
+#write {
+  -webkit-text-size-adjust: 100%;
+  max-width: 80rem;
+  margin: 0px auto;
+  padding: 1.6rem 3.2rem;
+
+}
+
+/*
+content {
+    background-color: var(--bg-color) !important;
+}
+*/
+
+
+/* 人物背景图片（右下角显示） */
+
+
+@media only screen and (min-width: 1800px){
+        content {
+        background: var(--bgimg-url) no-repeat;
+        background-size : 12%;
+        background-position: 86% 100%;
+    } 
+    /*效仿https://github.com/Soanguy/typora-theme-autumnus，取消下面注释，并注释上面（content）即可，换个背景（透明）风格*/
+        content {
+        background: var(--bgimg-url) no-repeat;
+        background-size : 30%;
+        background-position: center 10%;
+    } 
+    #write {
+        backdrop-filter: blur(15px);
+        max-width: 950px;
+        padding: 50px;
+        border: 1px dashed #d0d5d7;
+        border-radius: 4px;
+        margin: 470px auto 20px;
+    }
+    #write *:not(font,span) {
+        background: transparent !important;
+    }
+    #write table *, #write blockquote, #write pre, #write details, #write details * {
+        background: transparent !important;
+    }
+    #write details, #write details summary {
+        border-color: #d0d5d7 !important;
+    }
+}
+content #md-searchpanel {
+    background: var(--bg-color);
+}
+
+/*
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+*/
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-color) !important;
+  background-clip: padding-box;
+  border-radius:6px;
+}
+
+#write p {
+    line-height: 1.8rem;
+    word-spacing: 0rem;
+    color: var(--para-color);
+}
+
+#write>ul:first-child,
+#write>ol:first-child {
+    margin-top: 30px;
+}
+
+body>*:first-child {
+    margin-top: 0 !important;
+}
+
+body>*:last-child {
+    margin-bottom: 0 !important;
+}
+
+.mathjax-block:hover .md-rawblock-container,
+.mathjax-block:hover .md-rawblock-tooltip,
+.md-htmlblock:hover .md-rawblock-container,
+.md-htmlblock:hover .md-rawblock-tooltip {
+    background-color: var(--bg-color);
+    -webkit-animation: none;
+    animation: none;
+}
+
+.mathjax-block .md-rawblock-control, .md-htmlblock .md-rawblock-control {
+    -webkit-box-shadow:  0 5px 20px 0 rgba(0, 0, 0, 0.16), 0 5px 20px 0 rgba(0, 0, 0, 0.12);
+   box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+    color: var(--para-color);
+    border-radius: 6px;
+    background-color: var(--codeblockbg-color);
+}
+
+
+/** 超链接 **/
+
+
+#write a {
+    border-bottom:2px solid var(--abottom-color);
+    padding: 0 4px;
+    /*padding-top: 2px;*/
+    transition: .3s;
+    color: var(--atext-color);
+    text-decoration: none;
+}
+#write a:hover {
+    border-radius:6px;
+    border-bottom:2px solid transparent;
+    background-color:var(--abottom-color);
+    color: var(--ahover-color) !important;
+    cursor:pointer;
+}
+#write a[href*="muggledy"] {
+    border-bottom:2px solid red;
+}
+#write a[href*="muggledy"]:hover {
+    background-color:red;
+}
+#write h2 a, #write h4 a, #write a[alt="null"], #write a[alt="ref"]{
+    border-bottom: none !important;
+    /*color: var(--code-color);*/
+}
+h2 a:hover:before, h4 a:hover:before, #write a[alt="null"]:hover:before{
+    content: none !important;
+}
+
+/* 修复空链接（标题锚点）显示底部下划线的问题（padding宽度引起的问题），但是自定义锚点怎么处理？因为自定义的锚点链接里有一个空格，非空，所以自定义锚点时请额外加上alt="none"，这将会使得链接“消失” */
+#write a:empty, #write a[alt="none"], #write a[alt="null"] {
+    padding-left:0px; /*直接上display:none消除超链接会导致锚点失效，visibility:hidden又占位*/
+    padding-right:0px;
+}
+#write a[alt="none"] span {
+    display: none; /*消除空格或其他内容*/
+}
+
+/* 无样式超链接 */
+#write a[alt="null"]:hover{
+    background-color: inherit;
+    border-radius: 0px;
+    color: var(--atext-color) !important;
+}
+
+/* 样式：<超链接> */
+#write a[alt="ref"]:before{
+    content: "<";
+}
+#write a[alt="ref"]:after{
+    content: ">";
+}
+
+/* 写法：<span alt="ref">[[1][],[2][]]</span> */
+#write span[alt="ref"] a{
+    border-bottom: none;
+    color: var(--abottom-color);
+    /*padding-left: 2px;
+    padding-right: 2px;*/
+}
+
+
+/** 目录 **/
+
+
+#write a.md-toc-inner {
+    line-height: 1.6;
+    white-space: pre-line;
+    border-bottom: none;
+    color: var(--toc-color);
+}
+.md-toc {
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+#write a.md-toc-inner:hover{
+    text-decoration: underline;
+    /* border-bottom: 2px solid var(--toc-color);text-decoration: none; */
+    color: var(--toc-color) !important;
+    background-color: inherit;
+    border-radius: 0px;
+}
+#write a.md-toc-inner code{
+    color: var(--toc-color);
+    background-color: #f3f4f4;
+}
+#write a.md-toc-inner:hover:before {
+    content: none !important;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fbef89;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6 {
+  color: var(--darktitle-color);
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+
+h1 code {
+    font-size: inherit !important;
+}
+h2 code {
+    font-size: inherit !important;
+}
+h3 code {
+    font-size: inherit !important;
+}
+h4 code {
+    font-size: inherit !important;
+}
+h5 code {
+    font-size: inherit !important;
+}
+h6 code {
+    font-size: inherit !important;
+}
+
+
+
+/** 不同级别标题样式 **/
+
+
+h1 {
+    text-align: center;
+    padding-bottom: 0.3em;
+    font-size: 2.2em;
+    line-height: 1.2;
+    margin: 2.4em auto 1.2em;
+    display:block;
+}
+h1 span{
+    display: inline-block;
+    position: relative;
+}
+h1 span:after {
+    background: var(--titlebefore-color);
+    bottom: -5px;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    width: 100%;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+h1:hover span:after {
+    transform: scaleX(1);
+}
+
+h2 {
+    text-align: left;
+    margin: 1.8em auto 1.2em;
+    font-size: 1.8em;
+    border-bottom: 2px solid var(--titlebefore-color);
+}
+h2::before {
+    content: '\e689' !important; /* 风车图标 */
+    color: var(--titlebefore-color);
+    font-family: "iconfont";
+}
+
+/* h2标题前缀旋转动画 */
+@-moz-keyframes avatar_turn_around{from{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes avatar_turn_around{from{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@-o-keyframes avatar_turn_around{from{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes avatar_turn_around{from{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}
+h2:before {
+    display: inline-block;
+    -webkit-animation: avatar_turn_around 1s linear infinite;
+    -moz-animation: avatar_turn_around 1s linear infinite;
+    -o-animation: avatar_turn_around 1s linear infinite;
+    -ms-animation: avatar_turn_around 1s linear infinite;
+    animation: avatar_turn_around 1s linear infinite;
+    font-size: 34px;
+    margin-left: -29px;
+}
+
+/* h2标题内容稍稍偏右一点 */
+h2 * {
+    margin-left: .18rem;
+}
+#write>h2.md-focus:before {
+    color: var(--focus-color);
+}
+#write>h2.md-focus {
+    border-bottom-color: var(--focus-color);
+}
+
+.about-content-description h2:before{
+    content: none !important;
+}
+.about-content-description h2 {
+    border-bottom: none;
+}
+
+h3 {
+    font-size: 1.4em;
+    line-height: 1.43;
+    margin: 1.6em auto 0.5em;
+    padding-left: 9px;
+    border-left: 5px solid var(--titlebefore-color);
+}
+h4 {
+    margin-top: 1.3em;
+    font-size: 1.2em;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: inline-block;
+    border: 1px solid var(--titlebefore-color);
+    border-top: 4px solid var(--titlebefore-color);
+}
+
+/* 三级四级标题点击后的前缀提示图标 */
+#write>h3.md-focus:before,
+#write>h4.md-focus:before {
+    width: auto;
+    height: auto;
+    background-color: var(--focus-color);
+    color: #ffffff;
+}
+#write>h3.md-focus,
+#write>h4.md-focus {
+    border-color: var(--focus-color);
+}
+
+#write h5::before,
+#write h6::before {
+    position: absolute;
+    right: calc(100% + .75em);
+    top: 0;
+    color: var(--titlebefore-color); /* #5b5b5b */
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-variant: 'small-caps';
+    white-space: nowrap;
+    /* 文本强制不换行 */
+    border: 0;
+}
+#write h5.md-focus:before, #write h6.md-focus:before{
+    color: var(--focus-color);
+}
+#write h5, #write h6 {
+    /* margin-left: 2em; */
+    font-size: 1rem;
+}
+#write h5::before {
+    content: 'H5';
+    top: 0.18rem;
+}
+#write h6::before {
+    content: 'H6';
+    top: 0.18rem;
+}
+
+
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table {
+    margin: 0.8em 0;
+}
+
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+
+body>h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body>h1:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body>h1:first-child+h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body>h3:first-child,
+body>h4:first-child,
+body>h5:first-child,
+body>h6:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+a:first-child h1,
+a:first-child h2,
+a:first-child h3,
+a:first-child h4,
+a:first-child h5,
+a:first-child h6 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h1 p,
+h2 p,
+h3 p,
+h4 p,
+h5 p,
+h6 p {
+    margin-top: 0;
+}
+
+#write ol,
+#write ul {
+    padding-left: 35px;
+    margin: .5rem 0;
+}
+
+#write ol>li>*,
+#write ul>li>* {
+    font-weight: normal;
+}
+
+#write ol>li>*:not(ol):not(ul),
+#write ul>li>*:not(ol):not(ul) {
+    padding-left: .25rem;
+}
+
+
+
+/** 引用块（提示型） **/
+
+
+blockquote {
+    /* border: 1px solid #d1f3ff; */
+    border-left: 5px solid var(--blockquoteicon-color);
+    padding: 15px 10px;
+    color: #3f3f3f;
+    background-color: var(--blockquotebg-color); /* white */
+    border-radius: 5px;
+    position:relative;
+    -webkit-box-shadow:  0 5px 20px 0 rgba(0, 0, 0, 0.16), 0 5px 20px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+               0 2px 2px rgba(0,0,0,0.12), 
+               0 4px 4px rgba(0,0,0,0.12), 
+               0 8px 8px rgba(0,0,0,0.12),
+               0 16px 16px rgba(0,0,0,0.12);
+}
+
+blockquote:hover {
+    /* box-shadow: #84A1A8 0px 8px 12px;*/
+    border-left: 5px solid var(--focus-color);
+    background-size: 100% 100%;
+    -webkit-box-shadow:  0 5px 20px 0 rgba(0, 0, 0, 0.16), 0 5px 20px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+               0 2px 2px rgba(0,0,0,0.12), 
+               0 4px 4px rgba(0,0,0,0.12), 
+               0 8px 8px rgba(0,0,0,0.12),
+               0 16px 16px rgba(0,0,0,0.12);
+    cursor: default;
+}
+
+/* 给提示块加info图标 */
+blockquote>* {
+   /* margin-left: 1.5rem !important;*/
+   margin-left: 0.8rem !important;
+}
+blockquote::before {
+ /*   content: '\e613'; */
+    font-family: "iconfont";
+    color: var(--blockquoteicon-color);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: large;
+    font-weight: 600;
+}
+
+blockquote:hover {
+    color:var(--blockfocus-color);
+    
+}
+blockquote:hover:before {
+    color: var(--blockquoteicon-color);
+}
+
+
+
+/** 表格样式 **/
+
+
+/*table {
+    padding: 0;
+    word-break: initial;
+    font-size:15pt;
+}
+table th {
+    font-size: 18pt
+}
+
+table tr {
+    border-top: 1px solid var(--main-6);
+    margin: 0;
+    padding: 0;
+}
+
+table tr:nth-child(2n) {
+    background-color: var(--tableevenrow-color);
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid var(--tableborder-color);
+    background-color: var(--tablethbg-color);
+    border-bottom: 0;
+    text-align: center;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    background-color: var(--tableevenrow-color);
+    border: 1px solid var(--tableborder-color);
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+table td:hover {
+  background-color: var(--tablefocusrow-color);
+}*/
+
+/* table */
+table,
+.md-table-fig .md-table {
+  background-color: var(--tablebg-color);
+  -webkit-box-shadow:  0 5px 20px 0 rgba(0, 0, 0, 0.16), 0 5px 20px 0 rgba(0, 0, 0, 0.12);
+   box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+  border-collapse: collapse;
+  border: 1px solid #afafaf00;
+  border-radius: 6px;
+  overflow: visible;
+}
+
+table th{
+  overflow: hidden;
+  text-align:center;
+  background-color:#35845f;
+  border: 1px solid #a2a2a2;
+}
+
+table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+table td:after {
+    content: "";
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+table td:hover {
+    background-color:var(--tablefocusrow-color);
+    transform: scale(1.15, 1.15);
+    filter: drop-shadow(
+        1px 2px 4px rgb(30, 34, 44)
+      ); 
+}
+table td:hover::after {
+    opacity: 1;
+}
+
+table thead,
+.md-table-fig .md-table thead {
+  background-color: var(--tablethbg-color);
+  color: #000;
+}
+
+table caption + thead tr:first-child th,
+table caption + thead tr:first-child td,
+table colgroup + thead tr:first-child th,
+table colgroup + thead tr:first-child td,
+table thead + tbody tr:first-child th,
+table thead + tbody tr:first-child td,
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td,
+.md-table-fig .md-table caption + thead tr:first-child th,
+.md-table-fig .md-table caption + thead tr:first-child td,
+.md-table-fig .md-table colgroup + thead tr:first-child th,
+.md-table-fig .md-table colgroup + thead tr:first-child td,
+.md-table-fig .md-table thead + tbody tr:first-child th,
+.md-table-fig .md-table thead + tbody tr:first-child td,
+.md-table-fig .md-table thead:first-child tr:first-child th,
+.md-table-fig .md-table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+
+table tbody + tbody,
+.md-table-fig .md-table tbody + tbody {
+  border-top: 1px solid #ddd;
+}
+
+.md-table-fig .md-table-edit {
+  background-color: #ddd;
+}
+
+.md-table-fig .md-table-edit .btn-default:hover {
+  background-color: #bac6e9;
+}
+
+.md-table-fig .md-table-edit .md-table-resize-popover {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+ /* border: none;*/
+  padding: 0;
+  background-color: transparent;
+
+}
+
+.md-table-fig .md-table-edit .md-table-resize-popover .arrow {
+  top: -10px;
+}
+
+.md-table-fig .md-table-edit .md-table-resize-popover .arrow::after {
+  border-bottom-color: var(--tableborder-color);
+}
+
+.md-table-fig .md-table-edit .md-table-resize-popover .md-reset {
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.md-table-fig .md-table-edit .md-table-resize-popover .md-reset input {
+  color: #282c34 !important;
+}
+
+.md-table-fig .md-table-edit .md-table-resize-popover .md-reset input#md-grid-width, .md-table-fig .md-table-edit .md-table-resize-popover .md-reset input#md-grid-height {
+  text-align: center;
+}
+
+.md-table-fig .md-table-edit .md-table-resize-popover .popover-title {
+  border-top: 1px solid #eee;
+}
+
+/* 三线表（自定义需覆盖上述默认表格样式） */
+div[alt="three-table"] table {
+    border-top: 1.5pt solid;
+    border-bottom: 1.5pt solid;
+    font-size:11pt;
+}
+div[alt="three-table"] table tr td, div[alt="three-table"] table tr th {
+    border: none;
+}
+div[alt="three-table"] table tr, div[alt="three-table"] table tr th, div[alt="three-table"] table tr:hover {
+    background-color: var(--bg-color);
+}
+div[alt="three-table"] table tr th {
+    border-bottom: 0.75pt solid;
+    font-family:黑体;
+    font-size:11pt;
+}
+
+/* 控制文本的居中or左or右显示 */
+*[alt="center"]{
+    text-align: center;
+}
+*[alt="left"]{
+    text-align: left;
+}
+*[alt="right"]{
+    text-align: right;
+}
+
+/* 无表头表格（且调小了格子的padding值） */
+
+div[alt="notitle-table"] table tr, div[alt="notitle-table"] table tr th, div[alt="notitle-table"] table tr:hover {
+    background-color: var(--bg-color);
+}
+div[alt="notitle-table"] table tr td:hover, div[alt="notitle-table"] table tr th:hover {
+    background-color: var(--tablefocusrow-color);
+}
+div[alt="notitle-table"] table tr th {
+    font-weight: normal;
+}
+div[alt="notitle-table"] table tr th, div[alt="notitle-table"] table tr td {
+    padding: 3px 10px;
+}
+
+
+/* 分栏 */
+
+div[alt="double"] table,
+.md-table-fig .md-table {
+-webkit-box-shadow:  none;
+   box-shadow: none;
+   /*-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.16), 0 6px 16px 0 rgba(0, 0, 0, 0.12);*/
+    background-size: 0 0;
+    cursor: default;
+    border-left: 0;
+    border-right: 0;
+  border: none;
+  border-radius: 0px;
+  overflow: none;
+}
+
+div[alt="double"] table td:after {
+    border-radius: 0px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    opacity: 1;
+    transition: none;
+}
+div[alt="double"] table td:before {
+    border-radius: 0px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    transition: none
+}
+div[alt="double"] table td:hover {
+  border-radius: 0;
+  background-color:var(--tablealt-color);
+  -webkit-box-shadow:  none;
+  box-shadow: none;
+  transition: none;
+  cursor:defalut;
+  transform:none;}
+
+*[alt="still"] div[alt="double"] table td:hover {
+    transform:none;
+}
+
+div[alt="double"] table td:hover::before {
+    opacity: 1;
+}
+
+div[alt="double"] table td:hover::after {
+    opacity: 1;
+}
+div[alt="double"] table tr td:first-child:hover {
+    transform:none;}
+div[alt="double"] table tr td:last-child:hover {
+    transform:none;}
+div[alt="double"] table tr:first-child td:hover {
+    transform:none;}
+div[alt="double"] table tr:first-child td:last-child:hover {
+    transform:none;}
+div[alt="double"] table tr:first-child td:first-child:hover {
+    transform:none;}
+div[alt="double"] table tr:nth-child(2) td:hover {
+    transform:none;}
+div[alt="double"] table tr:nth-child(2) td:last-child:hover {
+    transform:none;}
+div[alt="double"] table tr:nth-child(2) td:first-child:hover {
+    transform:none;}
+div[alt="double"] table tr:last-child td:hover {
+    transform:none;}
+
+div[alt="double"] table tr:last-child td:first-child:hover {
+    transform:none;
+}
+div[alt="double"] table tr:last-child td:last-child:hover {
+  transform:none;
+}
+div[alt="double"] table td:first-child{
+  padding: 0px 28px 0px 0px;
+}
+div[alt="double"] table td:last-child{
+  padding: 0px 0px 0px 28px;
+}
+div[alt="double"] table th,
+div[alt="double"] table td,
+.md-div[alt="double"] table-fig .md-div[alt="double"] table th,
+.md-div[alt="double"] table-fig .md-div[alt="double"] table td {
+  border-right: none;
+  border-bottom:none;
+  border-top: none;
+  border-left: none;
+}
+
+div[alt="double"] table th:first-child,
+div[alt="double"] table td:first-child,
+.md-div[alt="double"] table-fig .md-div[alt="double"] table th:first-child,
+.md-div[alt="double"] table-fig .md-div[alt="double"] table td:first-child {
+  border-left: 0;
+}
+div[alt="double"] table th {
+    padding: 0;
+    text-align:center;
+    background-color:none;
+}
+
+div[alt="double"] table thead,
+.md-div[alt="double"] table-fig .md-div[alt="double"] table thead {
+  background-color: none;
+  color: #000;
+}
+
+
+
+
+/* 嵌入 */
+
+div[alt="into-text"] table,
+.md-table-fig .md-table {
+-webkit-box-shadow:  none;
+   box-shadow: none;
+   /*-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.16), 0 6px 16px 0 rgba(0, 0, 0, 0.12);*/
+    background-size: 0 0;
+    cursor: default;
+    border-left: 0;
+    border-right: 0;
+  border: none;
+  border-radius: 0px;
+  overflow: none;
+}
+
+div[alt="into-text"] table td:after {
+    border-radius: 0px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    opacity: 1;
+    transition: none;
+}
+div[alt="into-text"] table td:before {
+    border-radius: 0px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    transition: none
+}
+div[alt="into-text"] table td:hover {
+  border-radius: 0;
+  background-color:var(--tablealt-color);
+  -webkit-box-shadow:  none;
+  box-shadow: none;
+  transition: none;
+  cursor:defalut;
+  transform:none;}
+
+*[alt="still"] div[alt="into-text"] table td:hover {
+    transform:none;
+}
+
+div[alt="into-text"] table td:hover::before {
+    opacity: 1;
+}
+
+div[alt="into-text"] table td:hover::after {
+    opacity: 1;
+}
+div[alt="into-text"] table tr td:first-child:hover {
+    transform:none;}
+div[alt="into-text"] table tr td:last-child:hover {
+    transform:none;}
+div[alt="into-text"] table tr:first-child td:hover {
+    transform:none;}
+div[alt="into-text"] table tr:first-child td:last-child:hover {
+    transform:none;}
+div[alt="into-text"] table tr:first-child td:first-child:hover {
+    transform:none;}
+div[alt="into-text"] table tr:nth-child(2) td:hover {
+    transform:none;}
+div[alt="into-text"] table tr:nth-child(2) td:last-child:hover {
+    transform:none;}
+div[alt="into-text"] table tr:nth-child(2) td:first-child:hover {
+    transform:none;}
+div[alt="into-text"] table tr:last-child td:hover {
+    transform:none;}
+
+div[alt="into-text"] table tr:last-child td:first-child:hover {
+    transform:none;
+}
+div[alt="into-text"] table tr:last-child td:last-child:hover {
+  transform:none;
+}
+div[alt="into-text"] table td{
+  padding:0px 0px;
+}
+div[alt="into-text"] table th,
+div[alt="into-text"] table td,
+.md-div[alt="into-text"] table-fig .md-div[alt="into-text"] table th,
+.md-div[alt="into-text"] table-fig .md-div[alt="into-text"] table td {
+  border-right: none;
+  border-bottom:none;
+  border-top: none;
+  border-left: none;
+}
+
+div[alt="into-text"] table th:first-child,
+div[alt="into-text"] table td:first-child,
+.md-div[alt="into-text"] table-fig .md-div[alt="into-text"] table th:first-child,
+.md-div[alt="into-text"] table-fig .md-div[alt="into-text"] table td:first-child {
+  border-left: 0;
+}
+div[alt="into-text"] table th {
+    padding: 0;
+    text-align:center;
+    background-color:none;
+}
+
+div[alt="into-text"] table thead,
+.md-div[alt="into-text"] table-fig .md-div[alt="into-text"] table thead {
+  background-color: none;
+  color: #000;
+}
+div[alt="into-text"] table tr:first-child td:first-child {
+    padding:0 0 0 8px;
+}
+div[alt="into-text"] table tr:first-child td:last-child {
+    padding:0 8px 0 0;
+}
+/* 行号左框线 */
+/*
+#write .CodeMirror-gutters {
+    border-right: 1px solid rgba(204, 51, 0);
+}
+*/
+
+/* 代码块行号颜色 */
+.cm-s-inner .CodeMirror-linenumber {
+    /* width: 2ch !important; */
+    color: var(--codeblocknum-color);
+}
+
+/* 代码块光标线条宽度、颜色 */
+#write .CodeMirror-cursors .CodeMirror-cursor {
+    border-left: 2px solid var(--focus-color);
+}
+
+/* 选中行高亮 */
+.md-fences:not(.md-focus) .CodeMirror-code>*:hover {
+    background-color: var(--codeblockline-color);
+}
+.md-fences.md-focus .CodeMirror-code>div.CodeMirror-activeline {
+    background-color: var(--codeblockline-color);
+}
+
+#write ol>li>*[class~="md-fences"], #write ul>li>*[class~="md-fences"] {
+    padding-left: 0 !important;
+}
+
+/* 蓝色行内数学公式 */
+/*
+[md-inline='inline_math'] {
+    color: blue;
+    font-size: 100%;
+}
+*/
+
+/* 修复行间公式在手机端屏幕宽度较小时公式极端缩小的问题，但是打印为pdf时仍要设为100%，否则有滚动条 */
+@media only screen and (max-width: 800px) {
+    .MathJax_SVG_Display svg{
+        max-width: inherit !important;
+    }
+}
+
+/* 头部YAML格式 */
+pre.md-meta-block {
+    font-family: "Poppins";
+    color: var(--yaml-color) !important;
+    padding: 15px;
+    background: var(--yamlbg-color) !important;
+    /*border: 1px grey dashed !important;*/
+    font-size: 0.8rem;
+    line-height: 1.45;
+    border-radius: 5px;
+}
+
+
+/** 行内代码 **/
+
+
+#write code {
+    -webkit-box-shadow:  0 5px 20px 0 rgba(0, 0, 0, 0.16), 0 5px 20px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+               0 2px 2px rgba(0,0,0,0.12), 
+               0 2px 2px rgba(0,0,0,0.12),
+               0 8px 8px rgba(0,0,0,0.12),
+               0 8px 8px rgba(0,0,0,0.12);
+    padding: 1px 3px;
+    border-radius: 5px;
+    font-family: var(--code-font); /*font-family: '微软雅黑';*/
+    font-size: 1.2rem;
+    color: var(--body-color);
+    background-color: var(--codebg-color);
+}
+
+
+/** 脚注（上标） **/
+
+
+#write .md-footnote {
+    background-color: var(--footnotebg-color);
+    color: var(--footnote-color);
+}
+
+/* 脚注上标链接禁止显示下划线样式 */
+#write sup.md-footnote a{
+    color: inherit !important; /* 鼠标hover时禁止颜色发生变化 */
+    border-bottom: none;
+    padding: 1px;
+    background-color: inherit;
+}
+
+
+/** 文本高亮 **/
+
+
+#write span[md-inline="highlight"] mark {
+    background-color: var(--highlightbg-color);
+    border-radius: 2px;
+    padding: 2px 4px;
+    margin: 0 2px;
+    color: var(--highlight-color);
+    font-weight: 500;
+}
+
+
+/** 分割线 **/
+
+
+/*
+hr {
+    height: 1px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: var(--split-color);
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+*/
+/* 来自next主题样式 */
+/*
+hr {
+    background-image: repeating-linear-gradient(-45deg, var(--split-color), var(--split-color) 4px, transparent 4px, transparent 8px);
+    border: 0;
+    height: 3px;
+    margin: 40px 0
+}
+*/
+/* 透明渐变水平线 */
+hr {
+ width:80%;
+ margin:0 auto;
+ border: 0;
+ height: 2px;
+ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--split-color), rgba(0, 0, 0, 0));
+}
+
+
+#write del {
+    padding: 1px 2px;
+}
+
+.cm-s-inner .cm-link,
+.cm-s-inner.cm-link {
+    color: #22a2c9;
+}
+
+.cm-s-inner .cm-string {
+    color: #22a2c9;
+}
+
+
+
+/** 任务列表小方框 **/
+
+
+.md-task-list-item>input {
+    margin-left: -1.3em;
+    margin-top: 0.4rem;
+    -webkit-appearance: none;
+}
+.md-task-list-item>input:before {
+    content: '';
+    display: inline-block;
+    width: 0.875rem;
+    height: 0.875rem;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    border-radius: 2px;
+    /*background-color: white;*/
+    border: 1px solid var(--taskborder-color);
+    margin-top: -0.4rem;
+    transition: all 0.2s linear;
+}
+.md-task-list-item>input:checked:before,
+.md-task-list-item>input[checked]:before {
+    content: '\2714';
+    font-size: 0.625rem;
+    color: white;
+    border: 1px solid var(--taskfocus-color);
+    background-color: var(--taskfocus-color);
+    line-height: .8rem;
+}
+.md-task-list-item:before{
+    content: none !important;
+}
+
+#write input[type=checkbox] {
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    background-color: inherit;
+}
+
+.md-task-list-item.task-list-done {
+    text-decoration: line-through;
+    color: #999;
+}
+.md-task-list-item.task-list-done span {
+    color: #999;
+}
+
+
+/** 导出html文件，修复流程图在手机端高度太大的问题 **/
+
+
+.md-diagram-panel svg{
+    /*max-width: inherit !important;*/
+    height: inherit !important;
+}
+
+
+
+/* @media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+} */
+
+/* .md-fences {
+    background-color: #f8f8f8;
+} */
+
+#write pre.md-meta-block {
+    /* padding: 1rem; */
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+    bottom: .375rem;
+    /* bottom: .575rem; */
+}
+
+#write>h3.md-focus:before {
+    left: -1.5625rem;
+    top: .375rem;
+}
+
+#write>h4.md-focus:before {
+    left: -1.5625rem;
+    top: .285714286rem;
+}
+
+#write>h5.md-focus:before {
+    left: -1.5625rem;
+    top: .285714286rem;
+}
+
+#write>h6.md-focus:before {
+    left: -1.5625rem;
+    top: .285714286rem;
+}
+
+/* https://www.bnxb.com/divcss/27022.html */
+details pre {
+    color:#444;
+    margin:15px auto;
+    padding:20px 15px;
+    padding-bottom: 0px;
+    background:#fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAmCAIAAACphTeFAAAAJElEQVRIx2N4RS5gGNU5qnNU56hOZJ2fyQWjOkd1juoc1YkMAKDL4lkok3p7AAAAAElFTkSuQmCC') repeat;
+    white-space:pre-wrap;
+    word-wrap:break-word;
+    letter-spacing:1.5px;
+    font:14px/25px 'Comic Sans MS','courier new';
+    line-height:22px;
+    background-size:100% 44px;
+}
+
+
+/** 图片 **/
+
+
+.md-image {
+    margin: 15px auto 5px;
+}
+.md-image img {
+    border-radius: 6px;
+}
+
+/* 当按`![shadow-随便写]()`格式写时（或`<img src="" alt="shadow-随便写">`），会有阴影 */
+img[alt|='shadow'],
+.md-image img[alt|='shadow'] {
+    -webkit-box-shadow:  0 5px 20px 0 rgba(0, 0, 0, 0.16), 0 5px 20px 0 rgba(0, 0, 0, 0.12);
+   box-shadow: 0px 1px 1px rgba(0,0,0,0.12), 
+   0px 2px 2px rgba(0,0,0,0.12), 
+   0px 4px 4px rgba(0,0,0,0.12), 
+   0px 8px 8px rgba(0,0,0,0.12),
+   0px 16px 16px rgba(0,0,0,0.12);
+    cursor: default;
+    border-left: 0;
+    border-right: 0;
+}
+
+/* 模糊特效 */
+img[alt|='blur'],
+.md-image img[alt|='blur'] {
+    filter:blur(6px);
+    -webkit-filter:blur(6px);
+    -moz-filter:blur(6px);
+    -ms-filter:blur(6px);
+    -o-filter:blur(6px);
+    transition: all 0.2s linear;
+}
+img[alt|='blur'],
+.md-image img[alt|='blur']:hover {
+    filter:none;
+    -webkit-filter:none;
+    -moz-filter:none;
+    -ms-filter:none;
+    -o-filter:none;
+}
+
+/*图片暗灰*/
+img[alt|='gray'],
+.md-image img[alt|='gray'] {
+    filter:grayscale(100%);
+}
+img[alt|='gray'],
+.md-image img[alt|='gray']:hover {
+    transition: 0.5s linear;
+    filter:grayscale(0);
+}
+.md-image>.md-meta {
+    border-radius: 3px;
+    font-family: var(--body-font);
+    padding: 2px 0 0 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+/* 图片自动编号 */
+#write{
+    counter-reset: imgNum;
+}
+#write p>.md-image:after{
+    counter-increment: imgNum;
+    content: "Figure" counter(imgNum) attr(alt) !important;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 8px !important;
+    font-size: small;
+}
+
+div[alt="fig"]{
+    font-size: small;
+    text-align: center;
+    margin-top: -10px !important;
+}
+
+.md-tag {
+    color: inherit;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#md-notification {
+    background-color: var(--bg-color) !important;
+}
+
+/* focus mode */
+
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header,
+.context-menu,
+.megamenu-content,
+footer {
+    font-family: var(--body-font);
+}
+
+
+/* 侧边栏 */
+
+
+#typora-sidebar{
+    background-color: var(--sidebarbg-color);
+}
+
+.file-list-item:hover, .file-list-item.active {
+    background-color: var(--sidelist-selected-color);
+}
+
+.file-node-content, .file-tree-node.active .file-node-content {
+    color: var(--para-color);
+}
+.file-tree-node.active>.file-node-background {
+    background-color: var(--sidelist-selected-color);
+}
+.file-node-content:hover .file-node-icon {
+    color: var(--titlebefore-color);
+}
+.file-node-content:hover {
+    cursor: pointer;
+    color: var(--titlebefore-color) !important;
+}
+.outline-item:hover {
+    color: var(--titlebefore-color) !important;
+    background-color: var(--sidelist-selected-color);
+}
+
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #e6f0fe;
+}
+
+.info-panel-tab:hover{
+    color: var(--para-color);
+}
+
+@media print {
+    .typora-export * {
+        -webkit-print-color-adjust: exact;
+    }
+    html {
+        font-size: 16px!important;
+    }
+    body {
+        font-family: Times, 'SimSun', serif!important;
+        color: #000000!important;
+    }
+    p {
+        color: #000000!important;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+    .MathJax_SVG_Display svg{
+        max-width: 100% !important;
+    }
+}
+
+
+
+/** 有序、无序列表，来自Butterfly主题 **/
+
+
+#write ul li, #write ol li, #write .ul .li, #write .ol .li {
+    list-style-type: none;
+}
+#write ul>li:not(.tab):before, #write .ul>.li:not(.tab):before {
+    margin-left: -22px;
+    margin-top: 10px;
+    width: .62em;
+    height: .62em;
+    border: .1em solid var(--ulol-color); /* #81d8cf */
+    border-radius: .31em;
+    background: 0 0;
+    content: '';
+    line-height: .42em;
+}
+#write ol li:before, #write ul li:before, #write .ol .li:before, #write .ul .li:before {
+    position: absolute;
+    background: var(--ulol-color); /* #81d8cf */
+    color: var(--olfore-color);
+    cursor: pointer;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+#write ol li:first-child, #write .ol .li:first-child { /* https://www.w3school.com.cn/cssref/pr_gen_counter-increment.asp */
+    counter-reset: li;
+}
+#write ol li:hover:before, #write ul li:hover:before, #write .ol .li:hover:before, #write .ul .li:hover:before {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+#write ul>li:not(.tab):hover:before, #write .ul>.li:not(.tab):hover:before{
+    border-color: var(--focus-color);
+}
+#write ol>li:before, #write .ol>.li:before {
+    margin-top: 6px;
+    margin-left: -25px;
+    width: 1.65em;
+    height: 1.65em;
+    border-radius: 0.825em;
+    content: counter(li);
+    counter-increment: li;
+    text-align: center;
+    font-size: .65em;
+    line-height: 1.7em;
+}
+
+/* 列表子项上下间隔调整 */
+#write ul li *, #write ol li *, #write .ul .li *, #write .ol .li * {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* 列表上下间隔调整 */
+#write ul li, #write ol li, #write .ul .li, #write .ol .li {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+
+/** 小标签 **/
+
+
+font {
+
+}
+font[title="red"] {
+    display: inline;
+    padding: .2em .3em;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .1rem;
+    border-radius: 6px;
+    background-color:#e91e64;
+}
+font[title="blue"] {
+    display: inline;
+    padding: .2em .3em;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .1rem;
+    border-radius: 6px;
+    background-color:#02aaf4;
+}
+font[title="yellow"] {
+    display: inline;
+     padding: .2em .3em;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .1rem;
+    border-radius: 6px;
+    background-color:#ffc50a;
+}
+font[title="green"] {
+    display: inline;
+    padding: .2em .3em;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .1rem;
+    border-radius: 6px;
+    background-color:#8bc34a;
+}
+font[title="gray"] {
+    display: inline;
+    padding: .2em .3em;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .1rem;
+    border-radius: 6px;
+    background-color:#4c4c4c;
+}
+
+
+/** 强调型文本 **/
+
+
+span[alt='emp'] {
+    border-bottom: 4px dotted var(--emptext-color);
+}
+span[alt='underline'] {
+    border-bottom: 2px solid var(--emptext-color);
+}
+span[alt='wavy'] {
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: var(--emptext-color);
+}
+
+
+/** 折叠标签 **/
+
+
+details {
+    -webkit-box-shadow:  0 5px 20px 0 rgba(0, 0, 0, 0.16), 0 5px 20px 0 rgba(0, 0, 0, 0.12);
+   box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+    display: block;
+    padding: 16px;
+    margin: 1em 0;
+    border-radius: 4px;
+    background: var(--bg-color);
+    font-size: 14px;
+    -webkit-transition: all .28s ease;
+    -moz-transition: all .28s ease;
+    -o-transition: all .28s ease;
+    -ms-transition: all .28s ease;
+    transition: all .28s ease;
+    -moz-transition: all .28s ease;
+    -webkit-transition: all .28s ease;
+    -o-transition: all .28s ease;
+    border: 1px solid var(--bg-color);
+}
+summary {
+    -webkit-box-shadow:  0 5px 20px 0 rgba(0, 0, 0, 0.16), 0 5px 20px 0 rgba(0, 0, 0, 0.12);
+   box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+    display: list-item;
+}
+details summary {
+    cursor: pointer;
+    padding: 16px;
+    margin: -16px;
+    border-radius: 4px;
+    color: var(--detailstxt-color);
+    font-size: .875rem!important;
+    font-weight: 700;
+    position: relative;
+    line-height: normal;
+}
+details>summary {
+    background: var(--detailsbg-color);
+}
+details[open] {
+    border-color: var(--detailsborder-color);
+}
+details[open]>summary {
+    color: #444;
+    margin-bottom: 0;
+}
+details[open]>summary {
+    border-bottom: 1px solid var(--detailsborder-color);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* 折叠框、视频、音频标签点击时候会出现黑色边框，极不美观，去除 */
+summary:focus {
+    outline: none !important;
+}
+video:focus{
+    outline: none !important;
+}
+audio:focus{
+    outline: none !important;
+}
+
+
+/** 隐藏型文本 **/
+
+
+span[alt="hide"] {
+    color: transparent;
+    background: var(--hidetextcover-color);
+    border-radius: 2px;
+    -webkit-transition: all .28s ease;
+    -moz-transition: all .28s ease;
+    -o-transition: all .28s ease;
+    -ms-transition: all .28s ease;
+    transition: all .28s ease;
+    -moz-transition: all .28s ease;
+    -webkit-transition: all .28s ease;
+    -o-transition: all .28s ease;
+}
+span[alt="hide"]:hover {
+    color:var(--hidetext-color);
+    background:0 0
+}
+
+
+/** 彩虹变换字体特效（来自黑石博客） **/
+
+
+@-webkit-keyframes rainbowan {
+    to {
+        background-position: -2000vw;
+    }
+}
+@keyframes rainbowan {
+    to {
+        background-position: -2000vw;
+    }
+}
+span[alt="rainbow"], span[alt="rainbow"] * {
+    padding-top: 3px;
+    background-image: linear-gradient( to left, orangered, orange, gold, lightgreen, cyan, dodgerblue, mediumpurple, hotpink, orangered);
+    background-size: 110vw;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-animation: rainbowan 60s linear infinite;
+    animation: rainbowan 60s linear infinite;
+}
+
+
+/** 一款时尚的span字体，来自QinXS **/
+
+
+span[alt="modern"] {
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-family: var(--body-font);
+    font-size: 1em;
+    letter-spacing: .2em;
+    color: red;
+    text-shadow: 0 8px 9px #c4b59d, 0 -2px 1px #fff;
+    font-weight: 700;
+    background: linear-gradient(to bottom,#ece4d9 0,#e9dfd1 100%);
+}
+
+
+/** volantis文本按钮样式 **/
+
+
+span[alt="btn"] {
+    color: var(--spanbtn-color);
+    border: 1px solid var(--spanbtn-color);
+    padding: 3px 4px 2px;
+    margin: 4px;
+    line-height: 1.1;
+    border-radius: 2px;
+}
+#write span[alt="btn"] a{
+    color: var(--spanbtn-color);
+    border-bottom:none;
+    background-color:inherit;
+    transition: none;
+}
+span[alt="btn"]:hover {
+    color: var(--focus-color);
+    border: 1px solid var(--focus-color);
+}
+#write span[alt="btn"]:hover a{
+    color: var(--focus-color) !important;
+}
+
+
+/** 抖音字效 **/
+
+
+@-webkit-keyframes uk-text-shadow-glitch{0%{text-shadow:none}25%{text-shadow:-1px -1px 0 #ff0048,1px 1px 0 #3234ff}50%{text-shadow:1px -1px 0 #ff0048,-1px 1px 0 #3234ff}75%{text-shadow:-1px 1px 0 #ff0048,1px -1px 0 #3234ff}to{text-shadow:1px 1px 0 #ff0048,-1px -1px 0 #3234ff}}@keyframes uk-text-shadow-glitch{0%{text-shadow:none}25%{text-shadow:-1px -1px 0 #ff0048,1px 1px 0 #3234ff}50%{text-shadow:1px -1px 0 #ff0048,-1px 1px 0 #3234ff}75%{text-shadow:-1px 1px 0 #ff0048,1px -1px 0 #3234ff}to{text-shadow:1px 1px 0 #ff0048,-1px -1px 0 #3234ff}}
+
+span[alt="shake"] {
+    -webkit-animation: uk-text-shadow-glitch .95s cubic-bezier(1,-1.91,0,2.79) 0s infinite normal both running;
+    animation: uk-text-shadow-glitch .95s cubic-bezier(1,-1.91,0,2.79) 0s infinite normal both running;
+}
+
+
+/* https://www.jq22.com/webqd4214（爱是一道光，绿到你发慌） */
+span[alt="glow"] {
+	font-family:'Audiowide';
+	text-align:center;
+	/*color:black;*/
+	-webkit-transition:all 1.5s ease;
+	transition:all 1.5s ease;
+}
+span[alt="glow"]:hover {
+    color:#00a67c;
+	-webkit-animation:Glow 1.5s ease infinite alternate;
+	animation:Glow 1.5s ease infinite alternate;
+}
+@-webkit-keyframes Glow {
+	from {
+	text-shadow:0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px #00a67c,0 0 70px #00a67c,0 0 80px #00a67c,0 0 100px #00a67c,0 0 150px #00a67c;
+}
+to {
+	text-shadow:0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #00a67c,0 0 35px #00a67c,0 0 40px #00a67c,0 0 50px #00a67c,0 0 75px #00a67c;
+}
+}@keyframes Glow {
+	from {
+	text-shadow:0 0 10px #fff,0 0 20px #fff,0 0 30px #fff,0 0 40px #00a67c,0 0 70px #00a67c,0 0 80px #00a67c,0 0 100px #00a67c,0 0 150px #00a67c;
+}
+to {
+	text-shadow:0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #00a67c,0 0 35px #00a67c,0 0 40px #00a67c,0 0 50px #00a67c,0 0 75px #00a67c;
+}
+}
+
+
+/* 空心字等文字特效 https://www.cnblogs.com/xiaohuochai/p/7521282.html */
+
+
+span[alt="hollow"]{
+    color:white;
+    text-shadow:1px 1px black,-1px -1px black,1px -1px black,-1px 1px black;
+}
+
+@keyframes blink-smooth{50%{color:transparent;}}
+span[alt="blink"]{
+  animation:.5s blink-smooth infinite alternate linear;
+}
+
+span[alt="str"]{
+    padding: 2px 4px;
+    color: var(--commonstr-color);
+    background-color: var(--commonstrbg-color);
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: var(--body-font);
+}
+
+
+
+/* 时间轴（来自Volantis主题） */
+
+
+div[alt="timeline"] {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+div[alt="timenode"] {
+    position: relative;
+}
+div[alt="timenode"]:after, div[alt="timenode"]:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    background: rgba(68,215,182,.5);
+    width: 2px;
+    left: 7px;
+}
+div[alt="timenode"]:before {
+    top: 0px;
+    height: 6px;
+}
+div[alt="timenode"] div[alt="body"], div[alt="timenode"] div[alt="meta"] {
+    max-width: calc(100% - 24px);
+}
+div[alt="timenode"] div[alt="meta"] {
+    position: relative;
+    color: var(--para-color);
+    line-height: 32px;
+    font-size: .8rem;
+    font-weight: 700;
+    margin: 0 0 0 24px;
+}
+div[alt="timenode"] div[alt="meta"]:after, div[alt="timenode"] div[alt="meta"]:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    z-index: 2;
+    left: -24px;
+}
+div[alt="timenode"] div[alt="meta"]:before {
+    background: rgba(68,215,182,.5);
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+}
+div[alt="timenode"] div[alt="meta"]:after {
+    background: #44d7b6;
+    margin-left: 2px;
+    margin-top: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -o-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+}
+div[alt="timenode"] div[alt="body"] {
+    margin: 4px 0 10px 24px;
+    padding: 10px;
+    border-radius: 12px;
+    background: var(--timebodybg-color);
+    display: inline-block;
+    font-size: .9rem;
+}
+div[alt="timenode"]:not(:last-child):after {
+    top: 26px;
+    height: calc(100% - 26px);
+}
+div[alt="timenode"]:last-child:after {
+    top: 26px;
+    height: calc(100% - 30px);
+}
+div[alt="timenode"]:hover div[alt="meta"]{
+    color: var(--para-color);
+}
+div[alt="timenode"]:hover div[alt="meta"]:before{
+    background:rgba(255,87,34,.5)
+}
+div[alt="timenode"]:hover div[alt="meta"]:after{
+    background:#ff5722;-webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -o-transform:scale(1);
+    -ms-transform:scale(1);
+    transform:scale(1);
+}
+
+
+/* 参考链接样式修改（隐藏链接部分，只显示标题） */
+
+
+.footnotes.md-def-link .md-def-split, .footnotes .md-def-url {
+    display: none;
+}
+.footnotes.md-def-link .md-def-name, .footnotes .md-def-title {
+    display: inline;
+}
+.footnotes {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+/* KBD按键样式 */
+
+
+kbd {
+    font: var(--code-font);
+    font-size: .8em;
+    background: var(--bg-color);
+    color: var(--body-color);
+    border-radius: 5px;
+}
+/*下划线*/
+#write u {
+    background-color: inherit;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 2px solid #f00;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+/* 无缝模式  */
+/* Unibody sidebar */
+#megamenu-menu-sidebar {
+  color: var(--body-color);
+  font-size: 1rem;
+}
+
+#megamenu-menu-sidebar #megamenu-menu-list {
+  border-top-color: rgba(171, 192, 208, 0.1);
+  background-color: #222526;
+}
+
+#megamenu-menu-sidebar #megamenu-menu-list li {
+  font-size: 0.8rem;
+}
+
+#megamenu-menu-sidebar #megamenu-menu-list li a {
+  color: #abc0d0 !important;
+}
+
+#megamenu-menu-sidebar #megamenu-menu-list li a.active, #megamenu-menu-sidebar #megamenu-menu-list li a:hover {
+  background-color: #3e4249 !important;
+}
+
+#megamenu-menu-sidebar #megamenu-menu-list li a#m-saved {
+  background-color: transparent !important;
+}
+
+.megamenu-opened .megamenu-menu {
+  left: 0;
+}
+
+#megamenu-content {
+  color:var(--body-color);
+}
+
+/*提示窗*/
+#md-notification {
+    background: var(--as-blockquote-border-color);
+}
+
+/*侧边栏列表*/
+#file-library-search-input {
+    background: transparent;
+}
+
+.pin-outline #outline-content .outline-active strong, .pin-outline .outline-active {
+    color: var(--as-link-color);
+}
+
+#typora-sidebar,
+#switch-file-list-btn {
+    background: var(--code-block-bg-color);
+}
+
+.info-panel-tab-title:hover {
+    background-color: var(--as-meta-block-bg-color);
+}
+
+.active-tab-files #info-panel-tab-file .info-panel-tab-border, .active-tab-outline #info-panel-tab-outline .info-panel-tab-border {
+    background: var(--as-link-color);
+}
+
+
+
+
+/**
+* 菜单页面
+*/
+
+/*菜单右侧背景*/
+.megamenu-opened header {
+    background: var(--bg-color);
+}
+
+.megamenu-content {
+    color: var(--body-color);
+    background: var(--bg-color);
+}
+
+/*最近使用文件单数列表项*/
+.open > .dropdown-menu {
+    background: var(--bg-color);
+}
+
+#recent-file-panel-action-btn-container {
+    margin-top: 10px;
+}
+
+#recent-file-panel-action-btn {
+    background: transparent;
+}
+
+.megamenu-menu-panel .btn:hover {
+    color: var(--as-inline-code-color);
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: var(--bg-color);
+}
+
+@import url();
+
+:root {
+    --shadow-color: 0deg 0% 0%;
+    /* dy color */
+    --select-text-bg-color: #ffafa3; /* 文本选中背景色（粉红） */
+    /*--primary-color: red;*/
+    --bg-color: white; /* 整体背景色（白色） */
+    --sidebarbg-color: white; /* 侧边栏背景色（白色） */
+    --focus-color: #ff5d52; /* 点击某些元素（如标题）显示的颜色（偏红） */
+    --codeblockbg-color: #eee; /* 代码块背景色（灰色） */
+    --codeblockfont-color: #555; /* 代码块默认字体颜色（黑色） */
+    --codeblockline-color: #e0f8f8; /* 代码块选中行颜色（青色） */
+    --titlebefore-color: #00c4b6; /* 各级标题点缀颜色（绿色） */
+    --codeblocknum-color: rgba(128, 128, 255, 0.8); /* 代码块行编号颜色（蓝色） */
+    --blockquoteicon-color: #5fa7e4; /* blockquote提示图标色（蓝色） */
+    --blockquotefocus-color:#ff5d52;/*blockquote聚焦颜色*/
+    --blockquotebg-color: #f4fcff; /* blockquote背景色（淡蓝） */
+    --ulol-color: #81accf; /* 有序无序列表前缀颜色（灰色） */
+    --olfore-color: #fff; /* 有序列表字体颜色（白色） */
+    --tablebg-color:#eeeeee;
+    --tableevenrow-color: #eee; /* 表格偶数行颜色（淡灰） */
+    --tablefocusrow-color: #e0f8f8cc; /* 表格鼠标悬停行颜色（淡蓝） */
+    --tableborder-color: #ddd; /* 表格边框色（黑色） */
+    --tablethbg-color: #80f2eaa4; /* 表格表头背景色（淡蓝） */
+    --scrollbar-color: #9e9e9e7b; /* 滚动条颜色（灰色） */
+    --toc-color: #00a0a0; /* 目录颜色（绿色） */
+    --atext-color: black; /* 超链接文本颜色（黑色） */
+    --ahover-color: #ffffffe6; /* 超链接悬停文本颜色（白色） */
+    --abottom-color: #81d8cf; /* 超链接下划线颜色（青色） */
+    --code-color: #ff3502; /* 行内代码前景色（红色） */
+    --codebg-color: #e9bf42; /* 行内代码背景色（淡红） */
+    --footnote-color: #e96900; /* 脚注上标前景色（红色） */
+    --footnotebg-color: #f8f8f8; /* 脚注上标背景色（淡灰） */
+    --highlight-color: red; /* 高亮文本前景色（红色） */
+    --highlightbg-color: yellow; /* 高亮文本背景色（黄色） */
+    --split-color: #00c4b6; /* 分割线颜色（绿色） */
+    --taskborder-color: red; /* 任务列表边框色（红色） */
+    --taskfocus-color: #00c4b6; /* 任务列表选中填充色（绿色） */
+    --spannote-color: #e91e64; /* 小标签背景色（红色） */
+    --emptext-color: #fe5f58; /* 几款强调型文本的颜色（红色） */
+    --hidetextcover-color: #a1a1a1; /* 隐藏文本遮罩颜色（灰色） */
+    --hidetext-color: #444; /* 隐藏文本颜色（黑色） */
+    --spanbtn-color: #44d7b6; /* 文本按钮颜色（绿色） */
+    --detailstxt-color: rgba(68,68,68,.7); /* 折叠框summary文字颜色（灰色） */
+    --detailsbg-color: #ebf9ed; /* 折叠框summary背景色（青绿色） */
+    --detailsborder-color: #00c4b6; /* 折叠框边框色（绿色） */
+    --body-color: #000000; /* 文本颜色（黑色） */
+    --para-color: #000000; /* 段落文本颜色（黑色） */
+    --commonstr-color: #232629; /* 常规字符串颜色（黑色） */
+    --commonstrbg-color: #e3e6e8; /* 常规字符串背景色（灰色） */
+    --timebodybg-color: #efeded; /* 时间轴主体部分背景色（灰色） */
+    --sidelist-selected-color: #eeeeee; /* 侧边栏条目选中背景色（灰色） */
+    --yamlbg-color: #f7f7f7; /* 头部YAML背景色（白色） */
+    --yaml-color: #585858; /* 头部YAML字体颜色（黑色） */
+    /* dy font */
+    --body-font: 'Source Sans Pro', '等距更纱黑体 SC', 'Helvetica Neue', Arial, sans-serif; /* 全局字体（"Poppins", -apple-system, "Helvetica Neue", Helvetica, "Noto Sans", "Nimbus Sans L", Arial, "Liberation Sans", "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;） */
+    --code-font: 'JetBrains Mono'; /* 代码块以及行内代码字体 */
+    /* bg image */
+    --bgimg-url: url(file:///C://Users//Sirius//AppData//Roaming//Typora/themes/bg-light.gif);
+}
+
+
+</style><title>第三十章.肾小球肾炎、肾病综合征与IgA肾病</title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='第三十章肾小球肾炎肾病综合征与iga肾病'><span>第三十章.肾小球肾炎、肾病综合征与IgA肾病</span></h1><h1 id='一急性肾小球肾炎和急进性肾小球肾炎'><span>一、急性肾小球肾炎和急进性肾小球肾炎</span></h1><p><span>		</span><span>急性肾小球肾炎简称急性肾炎，是以急性肾炎综合征为主要临床表现的一组疾病。其特点为急性起病，患者出现血尿、蛋白尿、水肿和高血压，并可伴有一过性肾功能不全（肌酐可升高）。多见于链球菌感染后。</span></p><h2 id='1-急性肾炎的主要病因和发病机制'><span>1. 急性肾炎的主要病因和发病机制</span></h2><p><span>		</span><span>本病常因β-溶血性链球菌“致肾炎菌株”</span><font face="楷体"><span>（常见为A组12型和49型等）</span></font><span>感染所致，常见于L呼吸道感染</span><font face="楷体"><span>（多为扁桃体炎）</span></font><span>、猩红热、等链球菌感染后。感染的严重程度与急性肾炎的发生和病变轻重并不完全一致。</span>
+<span>​</span><span>		</span><span>本病主要是由感染所诱发的免疫反应引起</span><font face="楷体"><span>（感染为间接病因，非直接病因）</span></font><span>，目前认为链球菌的致病抗原系胞质成分</span><font face="楷体"><span>（内链素）</span></font><span>或分泌蛋白</span><font face="楷体"><span>（外毒素B及其酶原前体）</span></font><span>，诱发免疫反应后可通过循环免疫复合物沉积于肾小球致病，或种植于肾小球的抗原与循环中的特异抗体相结合形成原位免疫复合物而致病。</span></p><h2 id='2-病理变化临床表现和实验室检查'><span>2. 病理变化、临床表现和实验室检查</span></h2><p>&nbsp;</p><blockquote><p><span>【注意】</span>
+<span>		</span><span>① 急进性肾炎以急性肾炎综合征（血尿、蛋白尿、水肿和高血压）起病，多在早期出现少尿或无尿，进行性肾功能恶化并发展成尿毒症为其临床特征。</span>
+<span>		</span><span>② 新月体性肾小球肾炎并不是原发性急进性肾炎特有的病理表现，继发性急进性肾炎如肺出血-肾炎综合征（Goodpasture病）、系统性红斑狼疮肾炎、过敏性紫癜肾炎均可引起新月体性肾小球肾炎。</span></p></blockquote><h2 id='3-诊断'><span>3. 诊断</span></h2><h3 id='1）急性肾炎的诊断'><span>（1）急性肾炎的诊断</span></h3><p><span>【诊断公式】儿童 + 上感史 + 急性肾炎综合征 + 血肌酐轻度升高 + （血C3下降 + ASO上升） = 急性肾炎</span></p><blockquote><p><span>【智取分析】</span>
+<span>		</span><span>① 患者年龄</span><span>	</span><span>由于急性肾炎多见于儿童、青少年，因此考题给出的患者年龄往往是10 ~ 20岁（20岁左右）。</span>
+<span>		</span><span>② 临床表现</span><span>	</span><span>“上感”后1 ~ 3周出现急性肾炎综合征的表现（血尿、蛋白尿、水肿和高血压），甚至出现少尿及肾功能不全的表现，考题给出的血肌酐（Cr）常轻中度升高（血肌酐值为100-200fimol/L，血肌酐正常值为76 ~ 88.4 μmol/L），可伴血清C3下降并于8周内恢复正常，可伴抗链球菌溶血素“O”抗体（ASO）升高，可临床诊断为急性肾炎。</span>
+<span>		</span><span>肾活检指征</span><span>	</span><span>若肾小球滤过率进行性下降或病情于2个月（8周）尚未见好转者应及时做肾活检，以明确诊断。</span></p></blockquote><h3 id='2）急进性背炎的诊断'><span>（2）急进性背炎的诊断</span></h3><p><span>【诊断公式】急性肾炎综合征 + 肾功能急骤恶化（少尿或无尿、血肌酐重度升高） = 急进性肾炎</span></p><blockquote><p><span>【智取分析】</span>
+<span>		</span><span>① 起病特点由于急进性肾炎以急性肾炎综合征（血尿、蛋白尿、水肿和高血压）起病，因此与急性肾炎类似，急进性肾炎也有血尿、蛋白尿、水肿和高血压等临床表现。</span>
+<span>		</span><span>② 疾病进展急进性肾炎的肾功能急剧恶化，多在早期出现少尿或无尿，进行性肾功能恶化并在短期内发展成尿毒症，考题给出血肌酐（Cr）常重度升高（血肌酐值 ＞ 442 μmol/L）。</span></p></blockquote><h3 id='3）急性肾小球肾炎与急进性肾小球肾炎的鉴别诊断技巧'><span>（3）急性肾小球肾炎与急进性肾小球肾炎的鉴别诊断技巧</span></h3><blockquote><p><span>【智取分析】急性肾炎与急进性肾炎的的鉴别诊断是命题热点，它们均可有“上感病史 + 急性肾炎综合征 + 血肌酐水平升高”（即共同题眼）。编者将它们称为“难兄难弟组舍”。很多同学平时复习过程中不加以总结，从而在考场上出现诊断错误。其实，只要抓住以下解题技巧就很简单：</span>
+<span>		</span><span>① 鉴别绝招一：看患者的年龄由于急性肾炎多见于儿童、青少年，因此考题给出的患者年龄往往是10 ~ 30岁（常为20岁左右）；而急进性肾炎发病较大，常 ＞ 30岁。</span>
+<span>		</span><span>② 鉴别绝招二：看患者的血肌酐水平由于急性肾炎可有一过性肾功能不全，考题给出的血肌酐（Cr）常轻中度升髙（血肌野值为100 ~ 200 μmol/L，血肌酐正常值为76 ~ 88.4 μmol/L）；而急进性肾炎的肾功能急剧恶化，多在早期出现少尿或无尿，考题给出血肌酐（Cr）常重度升高（血肌酐值 ＞ 442 μmol/L）。</span>
+<span>		</span><span>③ 不可看到患者有“上感病史”就认为一定是急性肾炎，急进性肾炎也可有“上感病史”。</span>
+<span>		</span><span>④ 不可看到少尿或血肌酐升高就认为一定是急进性肾炎，急性肾炎也可有一过性肾功能不全的表现。当然，解题时应综合题干给出的信息，从而作出正确诊断。此知识点常考，请同学们运用上述解题绝招去解答2016年第102题、2014年第70题，2010年第70题。</span></p></blockquote><h2 id='4-治疗-1'><span>4. 治疗</span></h2><h3 id='1）急性肾炎的治疗'><span>（1）急性肾炎的治疗</span></h3><p><span>		</span><span>以休息及对症治疗为主。本病为自限性疾病，不宜使用糖皮质激素及细胞毒药物治疗。</span></p><table id="customers">
+	<tbody><tr>
+		<th width="">治疗措施</th>
+		<th width="%">治疗原则</th>
+	</tr>
+	<tr>
+		<td>一般治疗</td>
+		<td>① 急性期应卧床休息和应低盐饮食；② 肾功能不全时限制蛋白质人量；③ 注意控制液体人量</td>
+	</tr>
+	<tr>
+		<td>治疗感染灶</td>
+		<td>青霉素控制感染；反复发作的慢性扁桃体炎待病情稳定后可考虑做扁桃体摘除</td>
+	</tr>
+	<tr>
+		<td>对症治疗</td>
+		<td>包括利尿消肿、降血压、预防心脑并发症的发生</td>
+	</tr>
+	<tr>
+		<td>透析治疗</td>
+		<td>发生急性肾衰有透析指征时应及时给予透析治疗</td>
+	</tr>
+</tbody></table><h3 id='2）急进性肾炎的治疗'><span>（2）急进性肾炎的治疗</span></h3><p><span>		</span><span>强调在早期作出病因诊断和免疫病理分型的基础上尽快进行强化治疗。</span></p><table id="customers">
+	<tbody><tr>
+		<th width="175">治疗措施</th>
+		<th width="%">适应证</th>
+	</tr>
+	<tr>
+		<td>强化血浆置换疗法</td>
+		<td>适用于各吧急进性肾炎，主要适用于Ⅰ型、就诊时急性肾衰竭已需要透析的Ⅲ型和伴有威胁生命的肺出血的患者<font face="楷体">（如继发性急进性肾炎——Goodpasture病）</font></td>
+	</tr>
+	<tr>
+		<td>甲泼尼龙冲击<br>联合环磷酰胺治疗</td>
+		<td>主要适用于Ⅱ、Ⅲ型，Ⅰ型疗效较差</td>
+	</tr>
+	<tr>
+		<td>透析治疗</td>
+		<td>凡急性肾衰竭已达透析指征者应及时透析</td>
+	</tr>
+	<tr>
+		<td>肾移植</td>
+		<td>应在病情静止半年，特别是Ⅰ型患者血中抗肾小球基底膜抗体需转阴后半年进行</td>
+	</tr>
+</tbody></table><blockquote><p><span>【注意】</span>
+<span>		</span><span>① 糖皮质激素和细胞毒药物（如环磷酰胺）不宜用于急性肾炎和慢性肾炎的治疗。</span>
+<span>		</span><span>② 糖皮质激素和细胞毒药物可用于急进型肾炎和肾病综合征的治疗。</span>
+<span>		</span><span>③ 血浆置换是Ⅰ型急进性肾炎、Goodpasture病的首选治疗方法。</span>
+<span>		</span><span>④ 血浆置换适用于各型急进性肾炎，但主要是Ⅰ型、Ⅲ型、Goodpasture病（记为“好怕”）。</span>
+<span>		</span><span>⑤ Ⅰ型急进性肾炎的治疗首选血浆置换，糖皮质激素和细胞毒药物效果差。</span>
+<span>		</span><span>⑥ Ⅱ、Ⅲ型急进性肾炎的治疗首选糖皮质激素和细胞毒药物，次选血浆置换。</span>
+<span>		</span><span>⑦ Ⅰ型抗膜线条样，Ⅱ型复合颗粒状，Ⅲ型安卡无免疫，三心二意激素环，好怕血浆溢上（1,3）来。</span></p></blockquote><h1 id='二慢性肾小球肾炎慢性肾炎）'><span>二、慢性肾小球肾炎（慢性肾炎）</span></h1><h2 id='1-病理临床表现及诊断'><span>1. 病理、临床表现及诊断</span></h2><h3 id='1）病理和临床表现'><span>（1）病理和临床表现</span></h3><table id="customers">
+	<tbody><tr>
+		<td width="118">年龄与性别</td>
+		<td>可发生于任何年龄，以中青年为主，男性多见</td>
+	</tr>
+	<tr>
+		<td>起病与进展</td>
+		<td>仅有少数是由急性肾炎发展所致。起病缓慢、隐袭。病情时轻时重、迁延，渐进性发展</td>
+	</tr>
+	<tr>
+		<td>病理特征</td>
+		<td>程度不等的肾小球硬化，肾小管萎缩、肾间质纤维化。晚期肾脏缩小、肾皮质变薄</td>
+	</tr>
+	<tr>
+		<td>病理类型</td>
+		<td>可见于多种肾脏病理类型，晚期均可发展为硬化性肾小球肾炎</td>
+	</tr>
+	<tr>
+		<td>一般表现</td>
+		<td>早期可无任何症状，可有乏力、疲倦、腰部疼痛和纳差</td>
+	</tr>
+	<tr>
+		<td>典型临表</td>
+		<td>呈多样性，表现为慢性肾炎综合征，蛋白尿、血尿、高血压、水肿（水肿为可有可无）为基本临床表现，不同程度的肾功能减退，渐进发展为慢性肾衰竭。可有肾功能逐渐恶化所致的贫血。</td>
+	</tr>
+	<tr>
+		<td>肾功能损害</td>
+		<td>早期肾功能正常或轻度受损（血肌酐升高，肌酐清除率下降），逐渐恶化进人终末期肾衰竭</td>
+	</tr>
+	<tr>
+		<td>尿异常</td>
+		<td>尿蛋白常在1 ~ 3g/d之间，尿沉渣镜检红细胞可增多，可见管型</td>
+	</tr>
+</tbody></table><blockquote><p><span>【智取分析】解答慢性肾炎与慢性肾孟肾炎鉴别诊断的病例分析题时可使用如下绝招：</span>
+<span>		</span><span>① 由于慢性肾炎仅有少数是由急性肾炎发展所致，因此病例分析题常不会给出有急性肾炎病史。</span>
+<span>		</span><span>② 由于慢性肾孟肾炎 ＞ 50%患者可有急性肾孟肾炎病史，因此病例分析题常给出有急性肾孟肾炎病史。</span></p></blockquote><h3 id='2）诊断-1'><span>（2）诊断</span></h3><p><span>		</span><span>凡尿化验异常（蛋白尿、血尿）、伴或不伴水肿及高血压病史达三个月以上，无论有无肾功能损害均应考虑此病，在除外继发性肾小球肾炎及遗传性肾小球肾炎后，临床上可诊断为慢性肾炎。</span>
+<span>​</span><span>		</span><span>【诊断公式】出现（蛋白尿、血尿、水肿、高血压） ＞ 3个月 + 尿蛋白1 ~ 3 g/d + 贫血 + 血肌酐升高 = 慢性肾炎</span></p><h2 id='2-治疗'><span>2. 治疗</span></h2><p><span>		</span><span>慢性肾炎的治疗应以防止或延缓肾功能进行性恶化、改善或缓解临床症状及防治心脑血管并发症为主要目的，而不以消除尿红细胞或轻度尿蛋白为目标。</span></p><h3 id='1）积极控制高血压和减少蛋白尿'><span>（1）积极控制高血压和减少蛋白尿</span></h3><table id="customers">
+	<tbody><tr>
+		<td width="166">治疗原理</td>
+		<td>高血压和蛋白尿是加速肾小球硬化、促进肾功能恶化的重要因素</td>
+	</tr>
+	<tr>
+		<td>高血压治疗</td>
+		<td>应限盐（NaCl ＜ 6 g/d）；Ccr ＜ 30 mL/min时，噻曝类利尿剂无效应改用袢利尿剂</td>
+	</tr>
+	<tr>
+		<td>ACEI</td>
+		<td>① 除具有降低血压作用外，还可减少蛋A尿和延缓肾功能恶化的肾脏保护作用，为治疗慢性肾炎高血压和（或）减少蛋白尿的首选药物<br>② 血肌酐 ＞ 264 μmol/L（3 mg/dl）时务必在严密观察下谨慎使用<font face="楷体">（考题默认为不宜使用）</font></td>
+	</tr>
+	<tr>
+		<td>治疗目标<font face="楷体">（9版）</font></td>
+		<td>力争把血压控制在理想水平（ ＜ 130/80 mmHg）；尿蛋白争取减少至 ＜ 1 g/d<font face="楷体">（8、9版相同）</font></td>
+	</tr>
+	<tr>
+		<td>治疗目称<font face="楷体">（7版）</font></td>
+		<td>① 尿蛋白 ≥ 1g/d，血压控制在 ＜ 125/75 mmHg；② 尿蛋白 ＜ 1g/d，血压控制在 ＜ 130/80 mmHg</td>
+	</tr>
+</tbody></table><blockquote><p><span>【注意】</span>
+<span>		</span><span>① 上表中慢性肾炎血压控制的目标应与本书《高血压》一章中高血压控制的目标放到一起记忆。</span>
+<span>		</span><span>② ACEI和ARB既可降低血压，又可减少尿蛋白和延缓肾功能恶化，因此应作为慢性肾炎患者控制髙血压的首选药物。慢性肾炎合并高血压、蛋白尿，髙血压合并糖尿病、蛋白尿的治疗均应首选ACEI或ARB。</span>
+<span>		</span><span>③ 血肌酐 ＞ 264 μmol/L时，ACEⅠ类药物默认为不宜使用，解题时注意看清题干给出的血肌野值。</span>
+<span>		</span><span>④ 解题时注意区分：慢性肾小球肾炎的治疗应减少蛋白尿，而不是消除轻度蛋白尿。</span>
+<span>		</span><span>⑤ 血压控制目标： ＜ 125/75 mmHg（尿蛋白 ≥ 1 g/d）， ＜ 130/80 mmHg（尿蛋白 ＜ 1 g/d），记为“大2575，小38。”</span></p></blockquote><h3 id='2）限制食物中蛋白及磷的入量'><span>（2）限制食物中蛋白及磷的入量</span></h3><p><span>		</span><span>肾功能不全应限制蛋白及磷的人量，应用优质低蛋白饮食（ ＜ 0.6 g/(Kg·d)）。</span></p><h3 id='3）糖皮质激素和细胞毒药物'><span>（3）糖皮质激素和细胞毒药物</span></h3><p><span>		</span><span>一般不主张积极应用。</span></p><h3 id='4）避免加重肾脏损害的因素'><span>（4）避免加重肾脏损害的因素</span></h3><p><span>		</span><span>感染、劳累、妊娠及肾毒性药物</span><font face="楷体"><span>（如氨基糖苷类抗生素、含马兜铃酸的中药等）</span></font><span>均可能损伤肾脏，导致肾功能恶化，应予以避免。</span></p><h1 id='三肾病综合征'><span>三、肾病综合征</span></h1><h2 id='1-诊断标准'><span>1. 诊断标准</span></h2><p><span>		</span><span>诊断标准</span><span>	</span><span>① 尿蛋白 ＞ 3.5g/d；② 血浆白蛋白 ＜ 30g/L；③ 水肿；④ 血脂升高。其中① ② 两项为诊断所必需。</span></p><blockquote><p><span>【记忆技巧】肾病综合征的诊断标准记忆为“三高一低”——水肿、高脂血症、尿蛋白高，低白蛋白血症。</span></p></blockquote><h2 id='2-病因'><span>2. 病因</span></h2><p><span>		</span><span>肾病综合征可分为原发性和继发性两大类。肾病综合征的分类和常见病因如下表：</span></p><table id="customers">
+	<tbody><tr>
+		<th width="%">分类</th>
+		<th width="%">儿童</th>
+		<th width="%">青少年</th>
+		<th width="%">中老年</th>
+	</tr>
+	<tr>
+		<td>原发性</td>
+		<td>微小病变型肾病（脂性肾病）</td>
+		<td>系膜增生性肾小球肾炎<br>微小病变型肾病（脂性肾病）<br>局灶节段性肾小球硬化<br>系膜毛细血管性肾小球肾炎</td>
+		<td>膜性肾病</td>
+	</tr>
+	<tr>
+		<td>继发性</td>
+		<td>乙型肝炎病毒相关性肾炎<br>系统性红斑狼疮肾炎<br>过敏性紫癜肾炎</td>
+		<td>乙型肝炎病毒相关性肾炎<br>系统性红斑狼疮肾炎<br>过敏性紫癜肾炎</td>
+		<td>糖尿病肾病、肾淀粉样变性<br>骨髓瘤性肾病<br>淋巴瘤或实体肿瘤性肾病</td>
+	</tr>
+</tbody></table><h2 id='3-病理生理'><span>3. 病理生理</span></h2><h3 id='1）大量蛋白尿'><span>（1）大量蛋白尿</span></h3><p><span>		</span><span>肾小球滤过膜的分子屏障和电荷屏障受损致便原尿中蛋白含量增多明显超过近曲小管回吸收量时，形成大量蛋白尿。在此基础上，凡是增加肾小球内压力及导致高灌注、高滤过的因素</span><font face="楷体"><span>（如高血压、高蛋白饮食或大量输注血浆蛋白）</span></font><span>均可加重尿蛋白的排出。</span></p><h3 id='2）血浆蛋白变化'><span>（2）血浆蛋白变化</span></h3><p><span>		</span><span>引起低白蛋白血症的原因包括：</span>
+<span>​</span><span>		</span><span>① 肝脏白蛋白合成增加不足以克服丢失</span><font face="楷体"><span>（大量白蛋白从尿中丢失）</span></font><span>和分解</span><font face="楷体"><span>（近端肾小管分解其摄取滤过的蛋白）</span></font><span>；</span>
+<span>​</span><span>		</span><span>② 肾病综合征患者因肠道黏膜水肿导致食欲减退；</span>
+<span>​</span><span>		</span><span>③ 蛋白质摄入不足、吸收不良或丢失。其他减少的血浆蛋白有免疫球蛋白</span><font face="楷体"><span>（如IgG）</span></font><span>、补体成分、抗凝及纤溶因子、金属结合蛋白</span><font face="楷体"><span>（如转铁蛋白）</span></font><span>及内分泌激素结合蛋白。</span></p><h3 id='3）水肿'><span>（3）水肿</span></h3><p><span>		</span><span>造成肾病综合征水肿的基本原因是低白蛋白血症、血浆胶体渗透压下降，使水分从血管腔内进人组织间隙。此外，由于肾灌注不足，激活肾素-血管紧张素-醛固酮系统（RAAS），促进水钠潴留。</span></p><h3 id='4）高脂血症'><span>（4）高脂血症</span></h3><p><span>		</span><span>血胆固醇、甘油三酯、LDL、VLDL、脂蛋白（a）均增加。其发生机制与肝脏合成脂蛋白增加和脂蛋白分解减少相关，目前认为后者可能是高脂血症更为重要的原因。</span></p><h2 id='4-病理类型及临床特征'><span>4. 病理类型及临床特征</span></h2><p><span>		</span><span>引起原发性肾病综合征的肾小球疾病主要病理类型有微小病变型肾病、膜性肾病、局灶节段性肾小球硬化、系膜增生性肾小球肾炎及系膜毛细血管性肾小球肾炎。考试以微小病变型肾病和膜性肾病为重点。</span></p><h3 id='1）微小病变型肾病与膜性肾病的比较'><span>（1）微小病变型肾病与膜性肾病的比较</span></h3><table id="customers">
+	<tbody><tr>
+		<th width="100"></th>
+		<th width="%">微小病变型肾病</th>
+		<th width="%">膜性肾病</th>
+	</tr>
+	<tr>
+		<td>别称</td>
+		<td>脂性肾病、微小病变性肾小球肾炎</td>
+		<td>膜性肾小球病</td>
+	</tr>
+	<tr>
+		<td>好发年龄</td>
+		<td>儿童<font face="楷体">（儿童原发性肾病综合征最常见类型）</font></td>
+		<td>中老年<font face="楷体">（成人最常见的肾病综合征）</font></td>
+	</tr>
+	<tr>
+		<td>好发性别</td>
+		<td>男性多于女性</td>
+		<td>男性多于女性</td>
+	</tr>
+	<tr>
+		<td>光镜</td>
+		<td>肾小球正常，近曲小管上皮细胞可见脂肪变性</td>
+		<td>肾小球弥漫性病变，基底膜钉突形成、增厚</td>
+	</tr>
+	<tr>
+		<td>免疫病理</td>
+		<td>阴性</td>
+		<td>IgG和C3细颗粒状沿肾小球毛细血管壁沉积</td>
+	</tr>
+	<tr>
+		<td>电镜</td>
+		<td>广泛肾小球脏层上皮细胞足突融合消失<font face="楷体">（题眼）</font></td>
+		<td>基底膜上皮侧有致密物，常伴广泛足突融合</td>
+	</tr>
+	<tr>
+		<td>临床表现</td>
+		<td>典型的肾病综合征<font face="楷体">（严重蛋白尿）<br></font>镜下血尿（15%）、肉眼血尿罕见</td>
+		<td>肾病综合征（80%）、镜下血尿（30%）、无肉眼血尿、易发生肾静脉栓塞（40% ~ 50%）</td>
+	</tr>
+	<tr>
+		<td>肾功能</td>
+		<td>多正常（部分患者发病时血肌酐可轻度升高）</td>
+		<td>正常或仅轻度减退</td>
+	</tr>
+	<tr>
+		<td>治疗</td>
+		<td>90%病例对糖皮质激素治疗敏感；初治者可单用激素<font face="楷体">（首选）</font>；疗效差可用激素和细胞毒药物</td>
+		<td>60% ~ 70%的早期患者经糖皮质激素和细胞毒药物治疗后可达临床缓解；单用激素无效</td>
+	</tr>
+	<tr>
+		<td>预后</td>
+		<td>自发缓解率高（30% ~ 40%），易复发（60%）</td>
+		<td>早期缓解率高，晚期缓慢进展为肾衰竭</td>
+	</tr>
+</tbody></table><blockquote><p><span>【记忆技巧】</span>
+<span>		</span><span>① “儿童天真无邪，就像一张白纸（脂）”脂性肾病是儿童原发性肾病综合征最常见类型。</span>
+<span>		</span><span>② “中老年人阅览无数，历经磨（膜）难”膜性肾病好发于中老年人。</span>
+<span>		</span><span>③ 首选糖皮质激素 + 细胞毒药物—Ⅱ型急进性肾炎、Ⅲ型急进性肾炎、膜性肾病。</span>
+<span>		</span><span>④ 不宜用糖皮质激素 + 细胞毒药物—急性肾小球肾炎、慢性肾小球肾炎。</span>
+<span>		</span><span>⑤ 微小病变型肾病首选单用激素，无效时用糖皮质激素 + 细胞毒药物。</span>
+<span>		</span><span>⑥ Ⅰ型急进性肾炎首选血浆置换，糖皮质激素 + 细胞毒药物疗效差。</span>
+<span>		</span><span>⑦ 微型肾病用激素（首选），疗效差者加毒物。膜性肾病很顽固，首选激素加毒物。</span></p></blockquote><h3 id='2）系膜毛细血管性肾小球肾炎与系膜增生性肾小球肾炎的比较'><span>（2）系膜毛细血管性肾小球肾炎与系膜增生性肾小球肾炎的比较</span></h3><p><span>		</span><span>参见本书病理学第18章。</span></p><h3 id='3）肾病综合征与慢性肾小球肾炎的鉴别诊断技巧'><span>（3）肾病综合征与慢性肾小球肾炎的鉴别诊断技巧</span></h3><p><span>		</span><span>两者病例分析题题干给出的信息对比如下表：</span></p><table id="customers">
+	<tbody><tr>
+		<th width="%"></th>
+		<th width="%">肾病综合征</th>
+		<th width="%">慢性肾小球肾炎</th>
+	</tr>
+	<tr>
+		<td>共同题眼</td>
+		<td>间断性（有时或偶尔）水肿（应牢记）</td>
+		<td>间断性（有时或偶尔）水肿（应牢记）</td>
+	</tr>
+	<tr>
+		<td>尿蛋白定量</td>
+		<td> ＞ 3.5 g/d（大量蛋白尿）</td>
+		<td>常在1 ~ 3 g/d</td>
+	</tr>
+	<tr>
+		<td>尿蛋白定性</td>
+		<td>（ + + +）或（ + + + + ）</td>
+		<td>（ + ）或（ + + ）</td>
+	</tr>
+	<tr>
+		<td>下肢水肿程度</td>
+		<td>明显水肿（浮肿）、水肿分度（ + + ）或（ + + + ）</td>
+		<td>轻度水肿（浮肿）、有时水肿、水肿分度（ + ）</td>
+	</tr>
+	<tr>
+		<td>血肌酐</td>
+		<td>肾功能多正常，题干中常不给出血肌酐值</td>
+		<td>通常有肾功能损害，题干中常给出血肌酐值</td>
+	</tr>
+</tbody></table><blockquote><p><span>【智取分析】肾病综合征与慢性肾小球肾炎的的鉴别诊断是命题热点，它们的共同题眼是题干第一行给出的“间断性（有时或偶尔）水肿”，编者将它们称为“难兄难弟组合”。很多同学平时复过程中不加以总结，从而在考场上出现诊断错误。其实，只要抓住以下解题技巧就很简单：</span>
+<span>		</span><span>① </span><strong><span>鉴别绝招一：</span></strong><span>	</span><span>由于慢性肾炎通常有肾功能损害，题干中常给出血肌酐值，因此看到有血肌酐直接诊断；而由于肾病综合征肾功能多正常，题干中常不给出血肌酐值，因此没有看到有血肌酐应高度怀疑肾病综合征。</span>
+<span>		</span><span>② </span><strong><span>鉴别绝招二：</span></strong><span>	</span><span>慢性肾炎无大量蛋白尿，尿蛋白定量常在1 ~ 3 g/d，尿蛋白定性常为（+）或（ + + ）。</span>
+<span>		</span><span>肾病综合征有大量蛋白尿，尿蛋白定量 ＞ 3.5 g/d，尿蛋白定性常为（ + + + ）或（ + + + + ）。</span>
+<span>		</span><span>③ </span><strong><span>鉴别绝招三：</span></strong><span>	</span><span>看下肢水肿的程度：如果题干给出下肢轻度水肿、有时水肿、水肿分度（+），应诊断为慢性肾炎；如果下肢明显水肿、水肿分度（ + + ）或（ + + + ）应诊断为肾病综合征。当然，解题时应综合题干给出的信息，从而作出正确诊断。此知识点常考，请同学们运用上述解题绝招去解答2015年第102题、2013年第102题、2012年第102 ~ 104题、2010年第102题和2007年第170题。</span></p></blockquote><h2 id='5-并发症'><span>5. 并发症</span></h2><h3 id='1）常见并发症及特点'><span>（1）常见并发症及特点</span></h3><table id="customers">
+	<tbody><tr>
+		<th width="180">并发症</th>
+		<th width="%">发生机制</th>
+		<th width="%">备注</th>
+	</tr>
+	<tr>
+		<td>感染</td>
+		<td>与蛋白质营养不良、免疫功能紊乱及营养糖皮质激素治疗有关</td>
+		<td>为常见并发症；感染临床征象常不明显感染顺序为呼吸道、泌尿道及皮肤等</td>
+	</tr>
+	<tr>
+		<td>血栓栓塞并发症</td>
+		<td>① 血液浓缩和高脂血症造成血液黏稠度增加<br>② 某些蛋白质从尿中丢失，肝代偿合成蛋白增加，引起机体凝血、抗凝和纤溶系统失衡<br>③ 血小板过度激活、应用利尿剂和糖皮质激素进一步加重高凝状态</td>
+		<td>肾静脉血栓最为常见<font face="楷体">（发生率10% ~ 50%）</font><br>肺血管血栓、栓塞，下肢静脉、下腔静脉、冠状血管血栓和脑血管血栓也不是少见<br>直接影响治疗效果和预后的重要原因</td>
+	</tr>
+	<tr>
+		<td>急性肾损伤</td>
+		<td>① 有效血容量不足致肾血流量下降，诱发肾前性氮质血症；<br>② 肾间质高度水肿压迫肾小管；<br>③ 大量管型堵塞肾小管</td>
+		<td>以微小病变型肾病者多见，多无明显诱因，表现为少尿或无尿，扩容利尿无效<br>肾活检病理显示肾小球病变轻微</td>
+	</tr>
+	<tr>
+		<td>蛋白质及脂肪代谢紊乱</td>
+		<td colspan="2">① 长期低蛋白血症可导致营养不良、小儿生长发育迟缓；<br>② 免疫球蛋白减少易致感染；<br>③ 金属结合蛋白丢失使微量元素缺乏；<br>④ 内分泌激素结合蛋白不足诱发内分泌紊乱；<br>⑤ 药物结合蛋白减少影响某些药物的药代动力学，影响疗效；<br>⑥ 高脂血症增加血液黏稠度</td>
+	</tr>
+</tbody></table><blockquote><p><span>【注意】血栓栓塞并发症的发生机制极易出题，希望大家熟练掌握。</span></p></blockquote><h3 id='2）血栓栓塞并发症的诊断'><span>（2）血栓栓塞并发症的诊断</span></h3><p><span>【诊断公式】肾综（或膜性肾病）患者出现突发腰痛 + 血尿、蛋白尿加重 + 肾功能受损 = 肾静脉血栓形成【诊断公式】肾综（或膜性肾病）患者出现突发胸痛 + 呼吸困难 + P</span><sub><span>2</span></sub><span> ＞ A</span><sub><span>2 </span></sub><span>+ 颈静脉充盈或怒张 = 肺栓塞</span></p><h2 id='3-治疗'><span>3. 治疗</span></h2><h3 id='1）---般治疗'><span>（1）—般治疗</span></h3><p><span>		</span><span>严重水肿、低蛋白血症者需卧床休息。给予正常量0.8 ~ 1.0 g/(Kg·d)的优质蛋白饮食。不主张高蛋白饮食增加肾小球高滤过，加重蛋白尿并促进肾脏病变进展。水肿时应低盐（ ＜ 3 g/d）饮食。</span></p><h3 id='2）对症治疗'><span>（2）对症治疗</span></h3><p><span>		</span><span>包括利尿消肿、减少尿蛋白及降脂治疗。</span></p><h3 id='3）抑制免疫和炎症反应'><span>（3）抑制免疫和炎症反应</span></h3><p><span>		</span><u><span>① 糖皮质激素</span><font face="楷体"><span>（首选、最主要的治疗用药）</span></font></u><span>	</span><span>通过抑制免疫炎症反应，抑制醛固酮和抗利尿激素分泌，影响肾小球基底膜通透性等综合作用而发挥其利尿、消除尿蛋白的疗效。使用原则为“起量足、时间长、缓减药、长维持”，具体原则如下表：</span></p><table id="customers">
+	<tbody><tr>
+		<th width="%">使用原则</th>
+		<th width="%">解释</th>
+	</tr>
+	<tr>
+		<td>起量足、时间长</td>
+		<td>常用药物为泼尼松1 mg/(Kg·d)，口服8 ~ 12周<font face="楷体">（需牢记，常常间接考查！）</font></td>
+	</tr>
+	<tr>
+		<td>缓减药</td>
+		<td>足量治疗后每2 ~ 3周减原用量的10%，当减至20 mg/d时病情易复发，应更加缓慢减量</td>
+	</tr>
+	<tr>
+		<td>长维持</td>
+		<td>最后以最小有效剂量（10 mg/d）再维持半年左右</td>
+	</tr>
+</tbody></table><blockquote><p><span>【智取分析】请同学们牢记肾病综合征糖皮质激素治疗的疗程，即8 ~ 12周。考题常给出某个患者治疗疗程不满8周，此时尿蛋白依然阳性，让你选择下一步的治疗措施，正确的治疗措施应是原剂量继续治疗到8周。</span></p></blockquote><p><span>		</span><span>内科学中常考用药时间短（疗程未满）引起的“治疗无效”的两个病—竹病绽合证、缺铁性贫血。</span>
+<span>​</span><span>		</span><u><span>② 细胞毒药物</span></u><span>	</span><span>可用于激素依赖型或激素抵抗型的患者，协同激素治疗。如无激素禁忌，一般不作为首选或单独治疗用药。环磷酰胺为国内外最常用的细胞毒药物。盐酸氮芥为最早用于治疗肾病综合征的药物。</span></p><blockquote><p><span>【记忆技巧】环磷酰胺 → 环 → 环球 → 环球（全世界）都在使用的药物，当然是最常用的细胞毒药物。</span></p></blockquote><h1 id='四iga肾病'><span>四、IgA肾病</span></h1><h2 id='1-概述'><span>1. 概述</span></h2><p><span>		</span><span>IgA肾病是指肾小球系膜区以IgA或IgA沉积为主的原发性肾小球疾病，是肾小球源性血尿最常见的病因。为目前世界范围内最常见的原发性肾小球疾病，也是我国最常见的肾小球疾病。IgA肾病是肾脏免疫病理一致，但临床表现、病理改变和预后变异甚大的原发性肾小球疾病。</span></p><blockquote><p><span>【注意】</span>
+<span>		</span><span>① IgA肾病为一组疾病，非单个疾病，毛细血管内增生性肾小球肾炎（急性肾小球肾炎的病理类型）可为IgA肾病的一种病理类型。因此，虽然几乎全部急性肾小球肾炎的患者均有肾小球源性血尿，但肾小球源性血尿最常见的病因并不是急性肾小球肾炎而是IgA肾病。</span>
+<span>		</span><span>② 请牢记：“肾炎”的临床表现通常以血尿为主，“肾病”的临床表现通常以蛋白尿为主。但IgA肾病的临床表现以血尿为主。这些知识点对解题至关重要。</span></p></blockquote><h2 id='2-病理'><span>2. 病理</span></h2><p><span>		</span><span>病理变化多种多样，病变程度轻重不一，可涉及肾小球肾炎几乎所有的病理类型：轻微病变性肾小球肾炎、局灶增生性肾小球肾炎、毛细血管内增生性肾小球肾炎</span><font face="楷体"><span>（急性肾小球肾炎的病理类型）</span></font><span>、系膜毛细血管性肾小球肾炎、新月体肾小球肾炎、局灶性节段性肾小球硬化和增生硬化性肾小球肾炎等。</span></p><h2 id='3-临床表现及诊断'><span>3. 临床表现及诊断</span></h2><h3 id='1）临床表现'><span>（1）临床表现</span></h3><p><span>		</span><span>可包含原发性肾小球疾病的各种临床表现，血尿最常见。</span></p><table id="customers">
+	<tbody><tr>
+		<td>年龄与性别</td>
+		<td>好发于青少年，男性多见</td>
+	</tr>
+	<tr>
+		<td>前驱感染史</td>
+		<td>起病前多有感染，常为上呼吸道感染<font face="楷体">（咽炎、扁桃体炎）</font>，其次为消化道、肺部和泌尿道感染</td>
+	</tr>
+	<tr>
+		<td>典型表现</td>
+		<td>患者常在上呼吸道感染后<font face="楷体">（24 ~ 72小时，偶可更短）</font>出现突发性肉眼血尿，持续数小时至数日<br>伴或不伴轻度蛋白尿，无水肿、高血压和肾功能减退——无症状性血尿和（或）蛋白尿</td>
+	</tr>
+	<tr>
+		<td>尿异常</td>
+		<td>反复发作肉眼血尿患者发作间期可有持续尿检异常，但尿蛋白 ＜ 1.5 g/24h，最多不超过2.0 g/24h</td>
+	</tr>
+	<tr>
+		<td>肾功能</td>
+		<td>肾功能正常或轻度异常</td>
+	</tr>
+	<tr>
+		<td>高血压</td>
+		<td>早期不常见，部分可呈恶性髙血压，为继发性肾实质性恶性高血压最常见病因之一</td>
+	</tr>
+	<tr>
+		<td>其他</td>
+		<td>无明显低蛋白血症；少数肉眼血尿发作的患者可合并急性肾衰竭</td>
+	</tr>
+	<tr>
+		<td>预后</td>
+		<td>与病理类型有关，单纯镜下血尿一般预后较好，大量蛋白尿长期得不到控制者预后较差</td>
+	</tr>
+</tbody></table><blockquote><p><span>【智取分析】有“上感”病史并不是急性肾炎的特异性表现，急进性肾小球肾炎、IgA肾病也可有。基于这样的特点，命题人常将“急性肾炎、急进性肾小球肾炎、IgA肾病”三者放在一道考题中互为干扰项设置考题，编者将其称为“难兄难弟三组合”。希望同学们熟练本书讲述的快速鉴别诊断技巧。</span></p></blockquote><h3 id='2）诊断-2'><span>（2）诊断</span></h3><p><span>		</span><span>本病诊断依靠肾活检免疫病理学检查，即肾小球系膜区或伴毛细血管壁IgA为主的免疫球蛋白呈颗粒样或团块样沉积。</span></p><p><span>【诊断公式】青少年 + 上呼吸道感染（咽炎等）24 ~ 72小时后出现血尿 + 其他表现正常或轻度异常 = IgA肾病</span></p><blockquote><p><span>【智取分析】</span>
+<span>		</span><span>① 解答病例分析题时，看到一个患者以血尿（镜下血尿或肉眼血尿）为主要临床表现，其他临床表现或实验室检查均正常或轻度异常应髙度怀疑诊断为IgA肾病。且由于IgA肾病患者往往只有血尿，即阳性的临床表现少，因此病例分析题题干通常很简短。这些都是解题技巧，请同学们熟练掌握！</span>
+<span>		</span><span>② 由于IgA肾病和急性肾炎的好发人群都是青少年，临床表现以血尿为突出症状，且均可有上呼吸道感染病史，命题人常将它们互为干扰项设置考题，可通过以下解题技巧快速鉴别诊断：</span>
+<span>		</span><span>“上感”1周以内（1 ~ 3天）出现血尿是IgA肾病，1周以后（1 ~ 3周）出现血尿是急性肾炎。</span></p></blockquote><h2 id='4-治疗-2'><span>4. 治疗</span></h2><table id="customers">
+	<tbody><tr>
+		<th width="139">临床表现</th>
+		<th width="%">治疗原则</th>
+	</tr>
+	<tr>
+		<td>单纯镜下血尿</td>
+		<td>无特殊治疗<font face="楷体">（对症支持为主）</font>，避免劳累、预防感染和避免使用肾毒性药物。一般预后良好。</td>
+	</tr>
+	<tr>
+		<td>蛋白尿</td>
+		<td>ACB：I或ARB治疗使尿蛋白 ＜ 1g/d，延缓肾功能进展。经过3 ~ 6个月优化支持治疗后尿蛋白仍持续〉1 g/d且GFR ＞ 50 ml（min·1.73m<sup>2</sup>）的患者，用糖皮质激素，必要时加用免疫抑制剂大量蛋白尿长期得不到控制者，常进展至慢性肾衰竭，预后较差</td>
+	</tr>
+	<tr>
+		<td>肾病综合征</td>
+		<td>IgA肾病表现肾病综合征的不多。具体治疗参见本书内科学第30章</td>
+	</tr>
+	<tr>
+		<td>急性肾衰竭</td>
+		<td>可予以糖皮质激素及免疫抑制剂治疗；支持治疗；达到透析指征的应给予透析治疗</td>
+	</tr>
+	<tr>
+		<td>慢性肾炎</td>
+		<td>延缓肾功能恶化为主要治疗目的，合并高血压者，应积极控制血压达标（ ＜ 130/80 mmHg）</td>
+	</tr>
+</tbody></table></div></div>
+</body>
+</html>
