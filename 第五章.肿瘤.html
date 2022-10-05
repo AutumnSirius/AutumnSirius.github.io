@@ -4,8 +4,15 @@
 <head>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width initial-scale=1'>
-    <link rel="stylesheet" tyep="text/css" href="css/menu.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" tyep="text/css" href="css/menu.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script>
+        $(function() {
+		  $("#menu").draggable();
+		});
+    </script>
     <style type='text/css'>
         html {
             overflow-x: initial !important;
@@ -3860,54 +3867,7 @@ hr {
             <nl></nl><br>
             <nl></nl><br>
             <nl></nl>
-        </div>
-       
-       <script>
-        (function($) {
-        $.fn.drags = function(opt) {
-    
-            opt = $.extend({handle:"",cursor:"move"}, opt);
-    
-            if(opt.handle === "") {
-                var $el = this;
-            } else {
-                var $el = this.find(opt.handle);
-            }
-    
-            return $el.css('cursor', opt.cursor).on("mousedown", function(e) {
-                if(opt.handle === "") {
-                    var $drag = $(this).addClass('draggable');
-                } else {
-                    var $drag = $(this).addClass('active-handle').parent().addClass('draggable');
-                }
-                var z_idx = $drag.css('z-index'),
-                    drg_h = $drag.outerHeight(),
-                    drg_w = $drag.outerWidth(),
-                    pos_y = $drag.offset().top + drg_h - e.pageY,
-                    pos_x = $drag.offset().left + drg_w - e.pageX;
-                $drag.css('z-index', 1000).parents().on("mousemove", function(e) {
-                    $('.draggable').offset({
-                        top:e.pageY + pos_y - drg_h,
-                        left:e.pageX + pos_x - drg_w
-                    }).on("mouseup", function() {
-                        $(this).removeClass('draggable').css('z-index', z_idx);
-                    });
-                });
-                e.preventDefault(); // disable selection
-            }).on("mouseup", function() {
-                if(opt.handle === "") {
-                    $(this).removeClass('draggable');
-                } else {
-                    $(this).removeClass('active-handle').parent().removeClass('draggable');
-                }
-            });
-    
-        }
-    })(jQuery);
-    
-    $('div#menu').drags();
-      </script>
-      
+        </div>  
         <div id='write' class=''>
             <h1 id='第五章肿瘤'><span>第五章.肿瘤 </span></h1>
             <h2 id='1-常考易混淆概念'><span>1. 常考易混淆概念</span></h2>
@@ -4347,7 +4307,7 @@ hr {
                         <td>慢性粒细胞白血病，急性淋巴细胞白血病</td>
                     </tr>
                     <tr>
-                        <td rowspan="3">转录因子</td>
+                        <td rowspan="3" style="border-bottom:none;">转录因子</td>
                         <td>——</td>
                         <td><i>myc</i></td>
                         <td>转位</td>
