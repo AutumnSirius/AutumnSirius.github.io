@@ -4,15 +4,15 @@
 <head>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width initial-scale=1'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.13.2/themes/dot-luv/jquery-ui.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.5/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.5/jquery.mobile-1.4.5.css">
     <link rel="stylesheet" tyep="text/css" href="css/menu.css">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-    <script>
-        $(function() {
-		  $("#menu").draggable();
-		});
-    </script>
+    <script>$(function () { $("#menu").draggable(); });</script>
+    <script>$(function () { $("table").draggable(); });</script>
+    <script>$("#menu").resizable();</script>
     <style type='text/css'>
         html {
             overflow-x: initial !important;
@@ -1884,6 +1884,7 @@ table td:hover {
         /* table */
         table,
         .md-table-fig .md-table {
+            z-index: 1;
             background-color: var(--tablebg-color);
             -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16), 0 5px 20px 0 rgba(0, 0, 0, 0.12);
             box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
@@ -3857,17 +3858,23 @@ hr {
 
 <body class='typora-export os-windows'>
     <div class='typora-export-content'>
-        <div id="menu">
-            <td></td><br>
-            <nl href="第四章.血液循环.html">第四章.血液循环</nl><br>
-            <nl href="第九章.神经系统的功能.html">第九章.神经系统的功能</nl><br>
-            <nl></nl><br>
-            <nl></nl><br>
-            <nl></nl><br>
-            <nl></nl><br>
-            <nl></nl><br>
-            <nl></nl>
-        </div>  
+        <ul id="menu">
+            <li>
+                <div><a href="第五章.肿瘤.html">第五章.肿瘤</a></div>
+            </li>
+            <li>
+                <div><a href="第四章.血液循环.html">第四章.血液循环</a></div>
+            </li>
+            <li>
+                <div><a href="第五章.糖代谢.html">第五章.糖代谢</a></div>
+            </li>
+            <li>
+                <div><a href="第九章.神经系统的功能.html">第九章.神经系统的功能</a></div>
+            </li>
+            <li>
+                <div><a></a>****</div>
+            </li>
+        </ul>
         <div id='write' class=''>
             <h1 id='第五章肿瘤'><span>第五章.肿瘤 </span></h1>
             <h2 id='1-常考易混淆概念'><span>1. 常考易混淆概念</span></h2>
