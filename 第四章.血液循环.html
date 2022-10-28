@@ -5,9 +5,16 @@
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width initial-scale=1'>
     <link rel="shortcut icon" href="img/icon.png">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.13.2/jquery-ui.js"></script>
+    <script src="JavaScript\drop.js"></script>
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.13.2/themes/dot-luv/jquery-ui.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.5/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.5/jquery.mobile-1.4.5.css">
     <link rel="stylesheet" tyep="text/css" href="css/menu.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script rel="text/javascript" href="JavaScript/drag.js"></script>
+    <script>$(function () { $("div.drop").draggable(); });</script>
+    <script>$(function () { $("table").draggable(); });</script>
+    <script>$("#menu").resizable();</script>
     <style type='text/css'>
         html {
             overflow-x: initial !important;
@@ -3922,13 +3929,26 @@ hr {
 
 <body class='typora-export os-windows'>
     <div class='typora-export-content'>
-        <div id="menu">
-            <ul id="nav">
-                <li><a href="第五章.肿瘤.html">第五章.肿瘤</a></li>
-                <li><a href="第九章.神经系统的功能.html">第九章.神经系统的功能</a></li>
-                <li><a href="第五章.糖代谢.html">第五章.糖代谢</a></li>
-            </ul>
-        </div>
+        <div class="drop">
+            <div class="option active placeholder" data-value="placeholder">
+              目录
+            </div>
+            <div class="option" data-value="wow">
+              <a href="第五章.肿瘤.html">第五章.肿瘤</a>
+            </div>
+            <div class="option" data-value="drop">
+              <a href="第五章.糖代谢.html">第五章.糖代谢</a>
+            </div>
+            <div class="option" data-value="select">
+              <a href="第四章.血液循环.html">第四章.血液循环</a>
+            </div>
+            <div class="option" data-value="custom">
+              第九章.神经系统的功能
+            </div>
+            <div class="option" data-value="animation"> 
+              Such animation!
+            </div>
+          </div>
 
         <script>
             (function ($) {

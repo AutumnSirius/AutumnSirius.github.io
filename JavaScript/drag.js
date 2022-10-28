@@ -41,3 +41,4 @@
 })(jQuery);
 
 $('div').drags();
+
