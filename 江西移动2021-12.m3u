@@ -33,6 +33,10 @@ http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225640/index.m3u8
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225641/index.m3u8 
 #EXTINF:-1 group-title="央视",CCTV17
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225909/index.m3u8
+#EXTINF:-1 tvg-id="CCTV4K.cn" tvg-logo="https://i.imgur.com/fxusYlX.png" group-title="央视",CCTV4K
+http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/1.m3u8
+#EXTINF:-1,tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" group-title="央视",CCTV4K
+http://ainm.cc/a/play/php/cctv4k.php?id=4khd
 #EXTINF:-1 group-title="央视",纯享4K
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225786/index.m3u8 
 #EXTINF:-1 group-title="卫视",东南卫视
