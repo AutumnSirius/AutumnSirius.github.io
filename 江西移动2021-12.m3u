@@ -30,7 +30,9 @@ http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225638/index.m3u8
 #EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV14.png" group-title="央视",CCTV14
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225640/index.m3u8
 #EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV15.png" group-title="央视",CCTV15
-http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225641/index.m3u8 
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225641/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV16.png" group-title="央视",CCTV16
+http://39.134.115.163:8080/PLTV/88888910/224/3221226233/index.m3u8
 #EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV17.png" group-title="央视",CCTV17
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225909/index.m3u8
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://autumnsirius.github.io/tv/CCTV4K.png" group-title="央视",CCTV4K
@@ -169,6 +171,10 @@ http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226198/index.m3u8
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225506/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="综合",青岛中华美食
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225924/index.m3u8
+#EXTINF:-1 group-title="综合",黑莓电影
+http://39.134.115.163:8080/PLTV/88888910/224/3221225769/index.m3u8
+#EXTINF:-1 group-title="综合",欢笑剧场
+http://39.134.115.163:8080/PLTV/88888910/224/3221226210/index.m3u8
 #EXTINF:-1 group-title="江西",江西少儿
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226194/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="江西",江西都市
