@@ -1,0 +1,1154 @@
+#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV1.png" group-title="央视",CCTV1
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225642/index.m3u8  
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV2.png" group-title="央视",CCTV2
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225643/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV3.png" group-title="央视",CCTV3
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225634/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV4.png" group-title="央视",CCTV4
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225621/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV5.png" group-title="央视",CCTV5
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225633/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV5+.png" group-title="央视",CCTV5+
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225706/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV6.png" group-title="央视",CCTV6
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225632/index.m3u8  
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV7.png" group-title="央视",CCTV7
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225644/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV8.png" group-title="央视",CCTV8
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225631/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV9.png" group-title="央视",CCTV9
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225646/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV10.png" group-title="央视",CCTV10
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225636/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV11.png" group-title="央视",CCTV11
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225628/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV12.png" group-title="央视",CCTV12
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225637/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV13.png" group-title="央视",CCTV13
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225638/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV14.png" group-title="央视",CCTV14
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225640/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV15.png" group-title="央视",CCTV15
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225641/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV16.png" group-title="央视",CCTV16
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888910/224/3221226230/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV17.png" group-title="央视",CCTV17
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225909/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CHC3.png" group-title="央视",CHC动作电影
+https://histar.zapi.us.kg/?id=chc-dzdy
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CHCyingmi.png" group-title="央视",CHC影迷电影
+https://histar.zapi.us.kg/?id=chc-gqdy
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CHC2.png" group-title="央视",CHC家庭影院
+https://histar.zapi.us.kg/?id=chc-jtyy
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CHC3.png" group-title="央视",CHC动作电影
+http://:8085/rtp/226.0.2.94:8012
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CHCyingmi.png" group-title="央视",CHC影迷电影
+http://118.81.195.91:8085/rtp/226.0.2.93:8004
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CHC2.png" group-title="央视",CHC家庭影院
+http://118.81.195.91:8085/rtp/226.0.2.240:9820
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV4K.png" group-title="央视",CCTV4K
+http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/1.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV8K.png" group-title="央视",CCTV8K
+https://tv.cry33.com/ys4k.php?id=8k
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CGTN.png"  group-title="央视",CGTN
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225747/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CGTNDoc.png"  group-title="央视",CGTN记录
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226260/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CGTNxiyu.png"  group-title="央视",CGTN西语
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226273/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CGTNfayu.png"  group-title="央视",CGTN法语
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226276/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CGTNalabo.png"  group-title="央视",CGTN阿拉伯语
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226279/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CGTNeyu.png"  group-title="央视",CGTN俄语
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226282/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/chunxiang4k.png" group-title="央视",纯享4K
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225786/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Phoenix1.png" group-title="卫视",凤凰中文
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226248/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Phoenix2.png" group-title="卫视",凤凰资讯
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226274/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Phoenix3.png" group-title="卫视",凤凰香港
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226251/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/dongnan0.png" group-title="卫视",东南卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225585/index.m3u8?fmt=ts2hls 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/dongfang0.png" group-title="卫视",东方卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225659/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Beijing0.png" group-title="卫视",北京卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225674/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/sichuan0.png" group-title="卫视",四川卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225487/index.m3u8?fmt=ts2hls 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/tianjin0.png" group-title="卫视",天津卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225698/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/anhui0.png" group-title="卫视",安徽卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225691/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/shandong0.png" group-title="卫视",山东卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225697/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Guangdong0.png" group-title="卫视",广东卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225701/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/guangxi0.png" group-title="卫视",广西卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226211/index.m3u8?fmt=ts2hls 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/jiangsu0.png" group-title="卫视",江苏卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225702/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/jiangxi0.png" group-title="卫视",江西卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225492/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/hebei0.png" group-title="卫视",河北卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225610/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/henan0.png" group-title="卫视",河南卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225611/index.m3u8?fmt=ts2hls 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/zhejiang0.png" group-title="卫视",浙江卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225703/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/hainan0.png" group-title="卫视",海南卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226212/index.m3u8?fmt=ts2hls 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/shenzhen0.png" group-title="卫视",深圳卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225700/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/hubei0.png" group-title="卫视",湖北卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225699/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Hunan0.png" group-title="卫视",湖南卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225704/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/guizhou0.png" group-title="卫视",贵州卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225483/index.m3u8?fmt=ts2hls 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/liaoning0.png" group-title="卫视",辽宁卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225696/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/chongqing0.png" group-title="卫视",重庆卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225692/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/heilongjiang0.png" group-title="卫视",黑龙江卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225690/index.m3u8  
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/yunnan0.png" group-title="卫视",云南卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225664/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/neimenggu0.png" group-title="卫视",内蒙古卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225667/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/xiamen0.png" group-title="卫视",厦门卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226199/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/jilin0.png" group-title="卫视",吉林卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225680/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/ningxia0.png" group-title="卫视",宁夏卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225726/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/shanxi0.png" group-title="卫视",山西卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225730/index.m3u8  
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/xinjiang0.png" group-title="卫视",新疆卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225725/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/hainan0.png" group-title="卫视",海南卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225722/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/gansu0.png" group-title="卫视",甘肃卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225724/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/xizang.png" group-title="卫视",西藏卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225723/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/shaanxi.png" group-title="卫视",陕西卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225729/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/qinghai0.png" group-title="卫视",青海卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225727/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/yanbian0.png" group-title="卫视",吉林延边
+http://live.ybtvyun.com/video/s10006-90fe76c52091/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/kangba0.png" group-title="卫视",四川康巴
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226207/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/dawanqu.png" group-title="卫视",大湾区卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226203/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/dawanqu.png" group-title="卫视",大湾区卫视
+https://histar.zapi.us.kg/?id=gdwqws
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/bingtuan0.png" group-title="卫视",兵团卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226200/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/anduo0.png" group-title="卫视",青海安多
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226195/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/shanghaijishi.png" group-title="综合",上海纪实人文
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225655/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Beijing5.png" group-title="综合",北京冬奥纪实
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225676/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/kuailechuidiao.png" group-title="综合",湖南快乐垂钓
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225780/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/chapd.png" group-title="综合",湖南茶频道
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225781/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/jinyingjishi.png" group-title="综合",湖南金鹰纪实
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225595/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/jykt.png" group-title="综合",湖南金鹰卡通
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225721/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/hhxd.png" group-title="综合",上海哈哈炫动
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225720/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Beijing8.png" group-title="综合",北京卡酷少儿
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225677/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Guandong14.png" group-title="综合",广东嘉佳卡通
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226193/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/ymkt.png" group-title="综合",江苏优漫卡通
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225665/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTVgouwu.png" group-title="综合",CCTV中视购物
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225976/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Nonglin.png" group-title="综合",陕西农林
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226204/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Shandongjy.png" group-title="综合",山东教育
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225719/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CETV1.png" group-title="综合",中国教育1
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225917/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CETV2.png" group-title="综合",中国教育2
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226242/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CETV4.png" group-title="综合",中国教育4
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225937/index.m3u8 
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CETVzaoqijiaoyu.png" group-title="综合",中国教育早教
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225513/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/zhongxuesheng.png" group-title="综合",中央新影中学生
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225515/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/laogushi.png" group-title="综合",中央新影老故事
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225517/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/liangzhuang.png" group-title="综合",江苏靓妆
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225509/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/henanliyuan.png" group-title="综合",河南梨园
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225581/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/henan.png" group-title="综合",河南武术世界
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225508/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/jinyingjishi.png" group-title="综合",湖南金鹰纪实
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226198/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/qimo.png" group-title="综合",重庆汽摩
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225506/index.m3u8?fmt=ts2hls
+#EXTINF:-1 group-title="综合",青岛中华美食
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225924/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/heimeidianying.png" group-title="综合",黑莓电影
+http://39.134.115.163:8080/PLTV/88888910/224/3221225769/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/heimeidonghua.png" group-title="综合",黑莓动画
+http://39.134.115.163:8080/PLTV/88888910/224/3221225672/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/huanxiao.png" group-title="综合",欢笑剧场
+http://171.208.14.218:9090/live/hxjchd/hls.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/dbss.png" group-title="综合",哒啵赛事
+http://39.134.115.163:8080/PLTV/88888910/224/3221225653/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/yxfy.png" group-title="综合",游戏风云
+http://118.81.195.91:8085/rtp/226.0.2.78:8536
+
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/jiangxi0.png" group-title="江西",江西卫视
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225492/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Jiangxi1.png" group-title="江西",江西都市
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225584/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Jiangxi2.png" group-title="江西",江西经济生活
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226206/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Jiangxi3.png" group-title="江西",江西影视旅游
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225579/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Jiangxi4.png" group-title="江西",江西公共农业
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225578/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Jiangxi5.png" group-title="江西",江西少儿
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226194/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Jiangxi6.png" group-title="江西",江西新闻
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225615/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/jiangxi.png" group-title="江西",江西教育
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226197/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Jiangxi5.png" group-title="江西",江西少儿
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225577/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Jiangxi6.png" group-title="江西",江西新闻
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225576/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/Jiangxi2.png" group-title="江西",江西经济生活
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225580/index.m3u8?fmt=ts2hls
+
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV25.png"  group-title="NewTV",超级电视剧
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225765/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV19.png"  group-title="NewTV",精品大剧
+http://39.134.115.163:8080/PLTV/88888910/224/3221225714/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV01.png"  group-title="NewTV",军事评论
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225757/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV08.png"  group-title="NewTV",农业致富
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225670/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV24.png"  group-title="NewTV",超级综艺
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225768/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV09.png"  group-title="NewTV",东北热剧
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226202/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV13.png"  group-title="NewTV",欢乐剧场
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226210/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV05.png"  group-title="NewTV",家庭剧场
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225713/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV21.png"  group-title="NewTV",金牌综艺
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225711/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV14.png"  group-title="NewTV",武搏世界
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225656/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV16.png"  group-title="NewTV",炫舞未来
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225707/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV07.png"  group-title="NewTV",中国功夫
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225660/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV02.png"  group-title="NewTV",军旅剧场
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225669/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV04.png"  group-title="NewTV",古装剧场
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225678/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV11.png"  group-title="NewTV",怡伴健康
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225666/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV15.png"  group-title="NewTV",潮妈辣婆
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225708/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV18.png"  group-title="NewTV",精品体育
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225709/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV20.png"  group-title="NewTV",精品记录
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225710/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV22.png"  group-title="NewTV",超级体育
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225622/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV23.png"  group-title="NewTV",超级电影
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225766/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="NewTV",明星综艺
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225716/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="NewTV",高清剧场
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225712/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV12.png"  group-title="NewTV",明星大片
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225716/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/NewTV06.png"  group-title="NewTV",海外剧场
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225712/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/suzhou4k.png" group-title="4K",苏州4K
+http://liveshowbak2.kan0512.com/ksz-norecord/sztv4k_4k.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/LoveNarure4K.png" group-title="4K",Love Nature 4K
+https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/chunxiang4k.png" group-title="4k",纯享4K
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225786/index.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV4K.png" group-title="4k",CCTV4K
+http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/1.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV4K.png" group-title="4k",CCTV4K
+http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/CCTV8K.png" group-title="4K",CCTV8K
+https://tv.cry33.com/ys4k.php?id=8k
+
+
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/xingkong.png" group-title="维护",星空卫视
+https://histar.zapi.us.kg/?id=star-xing-kong
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png" group-title="维护",重温经典
+https://histar.zapi.us.kg/?id=cwjd
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVBS1.png"  group-title="维护",TVBS新闻台
+https://histar.zapi.us.kg/?id=tvbs-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVBS2.png"  group-title="维护",TVBS欢乐台
+https://histar.zapi.us.kg/?id=tvbs-huanle
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVBS3.png"  group-title="维护",TVBS精采台
+https://histar.zapi.us.kg/?id=tvbs-jc
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVBS4.png"  group-title="维护",TVBS Asia
+https://histar.zapi.us.kg/?id=tvbs-asia
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVBS.png"  group-title="维护",TVBS综艺台
+https://histar.zapi.us.kg/?id=tvbs-zongyi
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVBS.png"  group-title="维护",TVBS台剧台
+https://histar.zapi.us.kg/?id=tvbs-taiju
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVBS.png"  group-title="维护",TVBS HD
+https://histar.zapi.us.kg/?id=tvbs-hd
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVBS.png"  group-title="维护",TVBS综艺台
+https://histar.zapi.us.kg/?id=tvbs-zongyi
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVBS.png"  group-title="维护",TVBS台剧台
+https://histar.zapi.us.kg/?id=tvbs-taiju
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/SET1.png"  group-title="维护",三立综合台
+https://histar.zapi.us.kg/?id=settv-zonghe
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/SET2.png"  group-title="维护",三立新闻
+https://histar.zapi.us.kg/?id=settv-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/SET3.png" group-title="维护",三立INews
+https://histar.zapi.us.kg/?id=settv-inews
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/SET4.png"  group-title="维护",三立台湾台
+https://histar.zapi.us.kg/?id=settv-taiwan
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/SET5.png"  group-title="维护",三立都会台
+https://histar.zapi.us.kg/?id=settv-city
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/SET6.png"  group-title="维护",三立戏剧台
+https://histar.zapi.us.kg/?id=settv-drama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/EBC1.png"  group-title="维护",东森综合台
+https://histar.zapi.us.kg/?id=ebc-ettv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/EBC2.png"  group-title="维护",东森超视
+https://histar.zapi.us.kg/?id=ebc-super
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/EBC3.png"  group-title="维护",东森电影
+https://histar.zapi.us.kg/?id=ebc-movie
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/EBC4.png"  group-title="维护",东森洋片
+https://histar.zapi.us.kg/?id=ebc-emovie
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/EBC5.png"  group-title="维护",东森戏剧
+https://histar.zapi.us.kg/?id=ebc-drama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/EBC6.png"  group-title="维护",东森新闻
+https://histar.zapi.us.kg/?id=ebc-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/EBC7.png"  group-title="维护",东森财经新闻
+https://histar.zapi.us.kg/?id=ebc-finance
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/EBC10.png"  group-title="维护",东森幼幼台
+https://histar.zapi.us.kg/?id=ebc-yoyo
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVB13.png"  group-title="维护",TVB华剧台
+https://histar.zapi.us.kg/?id=golden-chinese-drama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVB6.png"  group-title="维护",TVB星河台
+https://histar.zapi.us.kg/?id=tvb-xinghe
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVBPlus.png"  group-title="维护",TVB PLUS
+https://histar.zapi.us.kg/?id=tvb-plus
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVB4.png"  group-title="维护",无线新闻台
+https://histar.zapi.us.kg/?id=tvb-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVB.png"  group-title="维护",TVB亚洲剧台
+https://histar.zapi.us.kg/?id=tvb-asia-drama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVB13.png"  group-title="维护",TVB 华语剧台
+https://histar.zapi.us.kg/?id=tvb-drama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVB8.png"  group-title="维护",TVB千禧经典台
+https://histar.zapi.us.kg/?id=tvb-classic
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVB.png"  group-title="维护",TVB娱乐新闻台
+https://histar.zapi.us.kg/?id=TVB ylxw
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVB2.png"  group-title="维护",TVB 明珠台
+https://histar.zapi.us.kg/?id=pearl
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVB.png"  group-title="维护",TVB Magic
+https://histar.zapi.us.kg/?id=tvb-magic
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVB12.png"  group-title="维护",TVB粤语片台
+https://histar.zapi.us.kg/?id=tvb-yueyu
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/TVB14.png"  group-title="维护",TVB翡翠台
+https://histar.zapi.us.kg/?id=golden-jade
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/now1.png"  group-title="维护",Now 新闻台
+https://histar.zapi.us.kg/?id=now-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/now2.png"  group-title="维护",Now 财经台
+https://histar.zapi.us.kg/?id=now-finance
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/now3.png"  group-title="维护",Now 直播台
+https://histar.zapi.us.kg/?id=now-direct
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/now4.png"  group-title="维护",Now 爆谷台
+https://histar.zapi.us.kg/?id=baogu-movies
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/now5.png"  group-title="维护",Now 星影台
+https://histar.zapi.us.kg/?id=now-baogu-superstars
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/now6.png"  group-title="维护",NowViu剧集台
+https://histar.zapi.us.kg/?id=now-viu-drama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/now7.png"  group-title="维护",Now华剧台
+https://histar.zapi.us.kg/?id=now-chinese-drama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now 668
+https://histar.zapi.us.kg/?id=now-668
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 1
+https://histar.zapi.us.kg/?id=now-sports-1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 2
+https://histar.zapi.us.kg/?id=now-sports-2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 3
+https://histar.zapi.us.kg/?id=now-sports-3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now NBA
+https://histar.zapi.us.kg/?id=now-nba
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now HBO Hits
+https://histar.zapi.us.kg/?id=hbo-hits-hd
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HBO Now115
+https://histar.zapi.us.kg/?id=Now-HBO
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HBO Hits HD
+https://histar.zapi.us.kg/?id=now-hbo-hits
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now HBO Signature
+https://histar.zapi.us.kg/?id=now-hbo-signature
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 英超1
+https://histar.zapi.us.kg/?id=now-sports-premier-league1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Lucky 688 欧洲杯
+https://histar.zapi.us.kg/?id=now-lucky-688
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 618 欧洲杯
+https://histar.zapi.us.kg/?id=now-sports-618
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now jelli紫金国际台
+https://histar.zapi.us.kg/?id=now-jelli
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now报价台
+https://histar.zapi.us.kg/?id=now-data
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now beIN SPORTS 1
+https://histar.zapi.us.kg/?id=now-bein-sports1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now beIN SPORTS 2
+https://histar.zapi.us.kg/?id=now-bein-sports2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now beIN SPORTS 3
+https://histar.zapi.us.kg/?id=now-bein-sports3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 4
+https://histar.zapi.us.kg/?id=now-sports-4
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 5
+https://histar.zapi.us.kg/?id=now-sports-5
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 6
+https://histar.zapi.us.kg/?id=now-sports-6
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 7
+https://histar.zapi.us.kg/?id=now-sports-7
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Golf 2
+https://histar.zapi.us.kg/?id=now-golf2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Golf 3
+https://histar.zapi.us.kg/?id=now-golf3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HBO Now115
+https://histar.zapi.us.kg/?id=Now-HBO
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now HBO Hits
+https://histar.zapi.us.kg/?id=now-hbo-hits
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now HBO Family
+https://histar.zapi.us.kg/?id=now-hbof-amily
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 641
+https://histar.zapi.us.kg/?id=now-sports641
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",NowViu剧集台
+https://histar.zapi.us.kg/?id=now-viu-drama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now 668
+https://histar.zapi.us.kg/?id=now-668
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports Plus
+https://histar.zapi.us.kg/?id=now-sports-plus
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports精选
+https://histar.zapi.us.kg/?id=now-sports-prime
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now HBO Signature
+https://histar.zapi.us.kg/?id=now-hbo-signature
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 英超1
+https://histar.zapi.us.kg/?id=now-sports-premier-league1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now jelli紫金国际台
+https://histar.zapi.us.kg/?id=now-jelli
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Now Sports 619 欧洲杯
+https://histar.zapi.us.kg/?id=now-sports-619
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",天映频道
+https://histar.zapi.us.kg/?id=celestial
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",天映经典
+https://histar.zapi.us.kg/?id=cccm
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",香港卫视
+https://histar.zapi.us.kg/?id=hks
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",澳视澳门
+https://histar.zapi.us.kg/?id=tdm
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",纬来综合
+https://histar.zapi.us.kg/?id=videoland
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",中天综合
+https://histar.zapi.us.kg/?id=ctitv36
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",公视3台
+https://histar.zapi.us.kg/?id=pts-3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",中天新闻
+https://histar.zapi.us.kg/?id=cti-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",壹新闻
+https://histar.zapi.us.kg/?id=nexttv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Rania
+https://histar.zapi.us.kg/?id=astro-rania
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",中视新闻
+https://histar.zapi.us.kg/?id=ctv-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",非凡新闻
+https://histar.zapi.us.kg/?id=unique-business-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",民视综艺
+https://histar.zapi.us.kg/?id=ftv-reality
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HITSMovies
+https://histar.zapi.us.kg/?id=hitsmovies
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",博斯网球
+https://histar.zapi.us.kg/?id=sportcast-tennis
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",博斯无限
+https://histar.zapi.us.kg/?id=sportcast-wx
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",博斯魅力
+https://histar.zapi.us.kg/?id=sportcast-meili
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",五星体育
+https://histar.zapi.us.kg/?id=wxty
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HKC 18台
+https://histar.zapi.us.kg/?id=hkc18
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",公视台语台
+https://histar.zapi.us.kg/?id=pts-ty
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",美亚电影台
+https://histar.zapi.us.kg/?id=meiah-movies
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",好莱坞电影
+https://histar.zapi.us.kg/?id=hollywood-movie
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",朝日电视台
+https://histar.zapi.us.kg/?id=tv-asahi
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",龙祥电影台
+https://histar.zapi.us.kg/?id=lstime
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",tvN Movies
+https://histar.zapi.us.kg/?id=tvn-movies
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",国家地理
+https://histar.zapi.us.kg/?id=natgeo-wild
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HKC 18台
+https://histar.zapi.us.kg/?id=hkc18
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Animax 卡通
+https://histar.zapi.us.kg/?id=animax-cartoon
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",龙祥电影台
+https://histar.zapi.us.kg/?id=lstime
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",CHC动作电影
+https://histar.zapi.us.kg/?id=chc-dzdy
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",CHC高清电影
+https://histar.zapi.us.kg/?id=chc-gqdy
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",CHC家庭影院
+https://histar.zapi.us.kg/?id=chc-jtyy
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",大湾区卫视
+https://histar.zapi.us.kg/?id=gdwqws
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",寰宇新闻台
+https://histar.zapi.us.kg/?id=global-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",纬来电影台
+https://histar.zapi.us.kg/?id=videoland-movie
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",美亚电影台
+https://histar.zapi.us.kg/?id=meiah-movies
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",好莱坞电影
+https://histar.zapi.us.kg/?id=hollywood-movie
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",迪士尼频道
+https://histar.zapi.us.kg/?id=disney
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",朝日电视台
+https://histar.zapi.us.kg/?id=tv-asahi
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",民视台湾台
+https://histar.zapi.us.kg/?id=ftv-tw
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",龙华电影台
+https://histar.zapi.us.kg/?id=ltv-movies
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖天电影台
+https://histar.zapi.us.kg/?id=jtdy
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖天戏剧台
+https://histar.zapi.us.kg/?id=jtxjt
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro 爱奇艺
+https://histar.zapi.us.kg/?id=astro-iqiyi
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",东京电视台
+https://histar.zapi.us.kg/?id=tv-tokyo
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HOY TV
+https://histar.zapi.us.kg/?id=hoytv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",民视
+https://histar.zapi.us.kg/?id=ftv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",台视
+https://histar.zapi.us.kg/?id=ttv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",中视
+https://histar.zapi.us.kg/?id=ctv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",华视
+https://histar.zapi.us.kg/?id=cts
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",公视
+https://histar.zapi.us.kg/?id=pts
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HBO HD
+https://histar.zapi.us.kg/?id=hbo-hd
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ViuTV
+https://histar.zapi.us.kg/?id=viutv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SunTV
+https://histar.zapi.us.kg/?id=suntv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",AstroWarna Hub版
+https://histar.zapi.us.kg/?id=astro-warna-hub
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",KBS 1
+https://histar.zapi.us.kg/?id=kbs-1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",MTV Live HD 频道
+https://histar.zapi.us.kg/?id=mtv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",美国中文电视
+https://histar.zapi.us.kg/?id=sinovision
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",CNBC
+https://histar.zapi.us.kg/?id=cnbc
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",8TV
+https://histar.zapi.us.kg/?id=8tv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",tvN
+https://histar.zapi.us.kg/?id=tvn
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",WWE
+https://histar.zapi.us.kg/?id=wwe
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",J2
+https://histar.zapi.us.kg/?id=j2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro AOD 311 粤语
+https://histar.zapi.us.kg/?id=astro-aod-311-hk
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro AOD 311 国语
+https://histar.zapi.us.kg/?id=astro-aod
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",新时代电视二台
+https://histar.zapi.us.kg/?id=fairchildtv2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",CI 罪案侦查频道
+https://histar.zapi.us.kg/?id=ci
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",TLC 旅游生活頻道
+https://histar.zapi.us.kg/?id=tlc
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",TV Alhijrah
+https://histar.zapi.us.kg/?id=tv-alhijrah
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ColorsHindi
+https://histar.zapi.us.kg/?id=colorshindi
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",DramaSangat
+https://histar.zapi.us.kg/?id=dramasangat
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ColorsTamil
+https://histar.zapi.us.kg/?id=colorstamil
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",MovieMovie
+https://histar.zapi.us.kg/?id=moviemovie
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",星空卫视
+https://histar.zapi.us.kg/?id=star-xing-kong
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",澳亚卫视
+https://histar.zapi.us.kg/?id=mastv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",澳门卫视
+https://histar.zapi.us.kg/?id=mstv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",澳门资讯
+https://histar.zapi.us.kg/?id=tdm-information
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",纬来日本
+https://histar.zapi.us.kg/?id=videoland-japan
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",八大综合
+https://histar.zapi.us.kg/?id=gtv28
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",八大第一
+https://histar.zapi.us.kg/?id=gtv27
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",中天亚洲
+https://histar.zapi.us.kg/?id=cti-asia
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",大爱一台
+https://histar.zapi.us.kg/?id=daai1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",大爱二台
+https://histar.zapi.us.kg/?id=daai2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",年代新闻
+https://histar.zapi.us.kg/?id=era-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",台视新闻
+https://histar.zapi.us.kg/?id=ttv-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",华视新闻
+https://histar.zapi.us.kg/?id=cts-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",纬来戏剧
+https://histar.zapi.us.kg/?id=videoland-drama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",八大戏剧
+https://histar.zapi.us.kg/?id=gtv-41
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",八大娱乐
+https://histar.zapi.us.kg/?id=gtv-86
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",八大综艺
+https://histar.zapi.us.kg/?id=grt
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",民视影剧
+https://histar.zapi.us.kg/?id=ftv-drama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",中天娱乐
+https://histar.zapi.us.kg/?id=cti-yule
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖天映画
+https://histar.zapi.us.kg/?id=jtyh
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",公视戏剧
+https://histar.zapi.us.kg/?id=gsxj
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HubSports 1
+https://histar.zapi.us.kg/?id=hubsports1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HubSports 2
+https://histar.zapi.us.kg/?id=hubsports2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HubSports 3
+https://histar.zapi.us.kg/?id=hubsports3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HubPremier2
+https://histar.zapi.us.kg/?id=hubpremier2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HubPremier3
+https://histar.zapi.us.kg/?id=hubpremier3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HubPremier4
+https://histar.zapi.us.kg/?id=hubpremier4
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HubPremier5
+https://histar.zapi.us.kg/?id=hubpremier5
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Hub Sensasi
+https://histar.zapi.us.kg/?id=hub-sensasi
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Arena Bola
+https://histar.zapi.us.kg/?id=arena-bola
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Arena Bola2
+https://histar.zapi.us.kg/?id=arena-bola2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Awani
+https://histar.zapi.us.kg/?id=astro-awani
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Citra
+https://histar.zapi.us.kg/?id=astro-citra
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Prima
+https://histar.zapi.us.kg/?id=astro-prima
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Ceria
+https://histar.zapi.us.kg/?id=astro-ceria
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Warna
+https://histar.zapi.us.kg/?id=astro-warna
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Oasis
+https://histar.zapi.us.kg/?id=astro-oasis
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",beIN Sports
+https://histar.zapi.us.kg/?id=beinsports
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ROCK Action
+https://histar.zapi.us.kg/?id=rock-action
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Love Nature
+https://histar.zapi.us.kg/?id=love-nature
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",NHK General
+https://histar.zapi.us.kg/?id=nhk-g
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Aura
+https://histar.zapi.us.kg/?id=astro-aura
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",AstroPremier
+https://histar.zapi.us.kg/?id=astropremier
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",上海新闻
+https://histar.zapi.us.kg/?id=shxw
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",纬来体育
+https://histar.zapi.us.kg/?id=videoland-sport
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Eurosports-1
+https://histar.zapi.us.kg/?id=eurosports-1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Tech Storm
+https://histar.zapi.us.kg/?id=tech-storm
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",城市电视
+https://histar.zapi.us.kg/?id=talentvisiontv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",上海都市
+https://histar.zapi.us.kg/?id=shds
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",劲爆体育
+https://histar.zapi.us.kg/?id=jbty
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",广东体育
+https://histar.zapi.us.kg/?id=gdty
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",第一财经
+https://histar.zapi.us.kg/?id=yicai
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",辽宁体育
+https://histar.zapi.us.kg/?id=lnty
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",天津体育
+https://histar.zapi.us.kg/?id=tjty
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",广东珠江
+https://histar.zapi.us.kg/?id=gdzj
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",河南梨园
+https://histar.zapi.us.kg/?id=hnly
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",辽宁都市
+https://histar.zapi.us.kg/?id=lnds
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",辽宁影视
+https://histar.zapi.us.kg/?id=lnys
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",广州综合
+https://histar.zapi.us.kg/?id=gzzh
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",广州影视
+https://histar.zapi.us.kg/?id=gzys
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",广州竞赛
+https://histar.zapi.us.kg/?id=gzjs
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",广东影视
+https://histar.zapi.us.kg/?id=gdys
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",广东新闻
+https://histar.zapi.us.kg/?id=gdxw
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",广东民生
+https://histar.zapi.us.kg/?id=gdms
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",广东少儿
+https://histar.zapi.us.kg/?id=gdse
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Boomerang HD
+https://histar.zapi.us.kg/?id=boomerang-hd
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",探索频道
+https://histar.zapi.us.kg/?id=discovery
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",民视旅游
+https://histar.zapi.us.kg/?id=ftv-travel
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Animax 卡通
+https://histar.zapi.us.kg/?id=animax-cartoon
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",翡翠台
+https://histar.zapi.us.kg/?id=feicui
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HOY 资讯台
+https://histar.zapi.us.kg/?id=hoy-info
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",好消息
+https://histar.zapi.us.kg/?id=goodtv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ELTA综合台
+https://histar.zapi.us.kg/?id=elta-zonghe
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Channel 5
+https://histar.zapi.us.kg/?id=elta-zonghe
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Channel 8
+https://histar.zapi.us.kg/?id=channel8
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Channel U
+https://histar.zapi.us.kg/?id=channel-u
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",BeritaRTM
+https://histar.zapi.us.kg/?id=beritartm
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",GlobalTrekke
+https://histar.zapi.us.kg/?id=globaltrekker
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",AwesomeTV
+https://histar.zapi.us.kg/?id=awesometv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",StarVijay
+https://histar.zapi.us.kg/?id=starvijay
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Hub都会
+https://histar.zapi.us.kg/?id=HubECity
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Hub娱家
+https://histar.zapi.us.kg/?id=HubVVDrama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HubSport4
+https://histar.zapi.us.kg/?id=hubsports4
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Hub Premier 1
+https://histar.zapi.us.kg/?id=hubpremier1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro AEC
+https://histar.zapi.us.kg/?id=astro-aec
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Arena 2
+https://histar.zapi.us.kg/?id=astro-arena2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro RIA
+https://histar.zapi.us.kg/?id=astro-ria
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro ONE
+https://histar.zapi.us.kg/?id=astro-one
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Vinmeen
+https://histar.zapi.us.kg/?id=astro-vinmeen
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",beIN Sports 2
+https://histar.zapi.us.kg/?id=beinsports2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",beIN Sports 3
+https://histar.zapi.us.kg/?id=beinsports3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ELTA 体育-1
+https://histar.zapi.us.kg/?id=elta-sport1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ELTA 体育-2
+https://histar.zapi.us.kg/?id=elta-sport2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ELTA 体育-3
+https://histar.zapi.us.kg/?id=elta-sport3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ELTA 体育-4
+https://histar.zapi.us.kg/?id=elta-sport4
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",myTV SUPER 18
+https://histar.zapi.us.kg/?id=mytvsuper-18
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",PremierSports
+https://histar.zapi.us.kg/?id=premiersports
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HBO Family HD
+https://histar.zapi.us.kg/?id=hbo-family
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Bloomberg
+https://histar.zapi.us.kg/?id=bloomberg
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",EYE 旅游台
+https://histar.zapi.us.kg/?id=eye-travel
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",NHK Education
+https://histar.zapi.us.kg/?id=nhk-e
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",JSPORTS 1
+https://histar.zapi.us.kg/?id=jsports1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",JSPORTS 2
+https://histar.zapi.us.kg/?id=jsports2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",JSPORTS 3
+https://histar.zapi.us.kg/?id=jsports3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",JSPORTS 4
+https://histar.zapi.us.kg/?id=jsports4
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",KBS Drama
+https://histar.zapi.us.kg/?id=kbs-drama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",KBS Story
+https://histar.zapi.us.kg/?id=kbs-story
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ELTA 娱乐台
+https://histar.zapi.us.kg/?id=elta-ylt
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SukanRTM
+https://histar.zapi.us.kg/?id=sukanrtm
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ShowCase
+https://histar.zapi.us.kg/?id=showcase
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",BBCEarth
+https://histar.zapi.us.kg/?id=bbcearth
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SunMusic
+https://histar.zapi.us.kg/?id=sunmusic
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",DidikTV7
+https://histar.zapi.us.kg/?id=didiktv7
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ZeeTamil
+https://histar.zapi.us.kg/?id=zeetamil
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HubSports Plus
+https://histar.zapi.us.kg/?id=hubsports-plus
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ONEMalay
+https://histar.zapi.us.kg/?id=one-malay
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro QJ
+https://histar.zapi.us.kg/?id=astro-quanjia
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Arena HD
+https://histar.zapi.us.kg/?id=astro-arena-hd
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Vaanavil
+https://histar.zapi.us.kg/?id=astro-vaanavil
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro TUTOR TV
+https://histar.zapi.us.kg/?id=astro-tutor-tv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",博斯运动-1
+https://histar.zapi.us.kg/?id=sportcast1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",博斯运动-2
+https://histar.zapi.us.kg/?id=sportcast2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",博斯高球-1
+https://histar.zapi.us.kg/?id=sportcast-golf1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",博斯高球-2
+https://histar.zapi.us.kg/?id=sportcast-golf2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",时尚运动 X
+https://histar.zapi.us.kg/?id=ssydx
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Euronews
+https://histar.zapi.us.kg/?id=euronews
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ABC News
+https://histar.zapi.us.kg/?id=abc-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",BBC World News
+https://histar.zapi.us.kg/?id=bbc-world-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",MOMO 亲子台
+https://histar.zapi.us.kg/?id=momo-kids
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",CN卡通
+https://histar.zapi.us.kg/?id=cn-cartoon
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",History 频道
+https://histar.zapi.us.kg/?id=history
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",车迷TV
+https://histar.zapi.us.kg/?id=motorvision
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",KBS Life
+https://histar.zapi.us.kg/?id=kbs-life
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",KBS Kids
+https://histar.zapi.us.kg/?id=kbs-kids
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",KBSWorld
+https://histar.zapi.us.kg/?id=kbsworld
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",KBS NEWS
+https://histar.zapi.us.kg/?id=kbs-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SBS Plus
+https://histar.zapi.us.kg/?id=sbs-plus
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SBS funE
+https://histar.zapi.us.kg/?id=sbs-fune
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",CHC家庭影院
+https://histar.zapi.us.kg/?id=chc-jtyy
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",民视台湾台
+https://histar.zapi.us.kg/?id=ftv-tw
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",民视台湾台
+https://histar.zapi.us.kg/?id=ltv-movies
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖天电影台
+https://histar.zapi.us.kg/?id=jtdy
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖天戏剧台
+https://histar.zapi.us.kg/?id=jtxjt
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro 爱奇艺
+https://histar.zapi.us.kg/?id=astro-iqiyi
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",东京电视台
+https://histar.zapi.us.kg/?id=tv-tokyo
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HOY国际财经
+https://histar.zapi.us.kg/?id=hoy-ibc
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",港台电视 31
+https://histar.zapi.us.kg/?id=rthk31
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",港台电视 32
+https://histar.zapi.us.kg/?id=rthk32
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",民视第一台
+https://histar.zapi.us.kg/?id=ftv-one
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",中视菁采台
+https://histar.zapi.us.kg/?id=bravo
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖天综合台
+https://histar.zapi.us.kg/?id=jtzh
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖天日本台
+https://histar.zapi.us.kg/?id=jtrb
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",客家电视台
+https://histar.zapi.us.kg/?id=hakkatv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",寰宇财经台
+https://histar.zapi.us.kg/?id=global-finance
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",民视新闻台
+https://histar.zapi.us.kg/?id=ftv-news
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖天资讯台
+https://histar.zapi.us.kg/?id=jtzx
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",龙华戏剧台
+https://histar.zapi.us.kg/?id=ltv-xiju
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",龙华日韩台
+https://histar.zapi.us.kg/?id=ltv-rihan
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",八大精彩台
+https://histar.zapi.us.kg/?id=gtv-jct
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",采昌影剧台
+https://histar.zapi.us.kg/?id=caichang
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",中视经典台
+https://histar.zapi.us.kg/?id=ctv-classic
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖洋戏剧台
+https://histar.zapi.us.kg/?id=jyxj
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ChannelNewsAsia
+https://histar.zapi.us.kg/?id=channelnewsasia
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Mediacorp Suria
+https://histar.zapi.us.kg/?id=mediacorp-suria
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SunNews
+https://histar.zapi.us.kg/?id=sunnews
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Adithya
+https://histar.zapi.us.kg/?id=adithya
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SunLife
+https://histar.zapi.us.kg/?id=sunlife
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",MTVLive
+https://histar.zapi.us.kg/?id=mtvlive
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Bernama
+https://histar.zapi.us.kg/?id=bernama
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Moonbug
+https://histar.zapi.us.kg/?id=moonbug
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro 欢喜台
+https://histar.zapi.us.kg/?id=astro-huaheedai
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SPOTV-2
+https://histar.zapi.us.kg/?id=spotv2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",GINX Esports TV
+https://histar.zapi.us.kg/?id=ginx-esports
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",W-Sport
+https://histar.zapi.us.kg/?id=w-sport
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",智林体育台
+https://histar.zapi.us.kg/?id=zl-sports
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",新时代电视
+https://histar.zapi.us.kg/?id=fairchildtv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Cinemax
+https://histar.zapi.us.kg/?id=cinemax
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",DW 德国之声
+https://histar.zapi.us.kg/?id=cinemax
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",黑龙江都市
+https://histar.zapi.us.kg/?id=hljds
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",小尼克频道
+https://histar.zapi.us.kg/?id=nick-jr
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖天卡通台
+https://histar.zapi.us.kg/?id=jtkt
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖天育乐台
+https://histar.zapi.us.kg/?id=jtyl
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",i-Fun 动漫台
+https://histar.zapi.us.kg/?id=i-fun
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",达文西频道
+https://histar.zapi.us.kg/?id=da-vinci
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",亚洲旅游台
+https://histar.zapi.us.kg/?id=asia-travel
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",LUXE TV Channel
+https://histar.zapi.us.kg/?id=luxe-tv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",日本电视台
+https://histar.zapi.us.kg/?id=nippon-tv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",富士电视台
+https://histar.zapi.us.kg/?id=fujitv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",KBS Joy
+https://histar.zapi.us.kg/?id=kbs-joy
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ViuTV6
+https://histar.zapi.us.kg/?id=viutv6
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Thrill
+https://histar.zapi.us.kg/?id=thrill
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",tvn HD
+https://histar.zapi.us.kg/?id=tvnhd
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro SuperSport
+https://histar.zapi.us.kg/?id=super-sports1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ESPN 2
+https://histar.zapi.us.kg/?id=espn2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ESPN 3
+https://histar.zapi.us.kg/?id=espn3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ESPN 4
+https://histar.zapi.us.kg/?id=espn4
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",DAZN 1
+https://histar.zapi.us.kg/?id=eleven-sport1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",DAZN 2
+https://histar.zapi.us.kg/?id=eleven-sport2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HBO Signature HD
+https://histar.zapi.us.kg/?id=hbo-signature
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",amc 最爱电影
+https://histar.zapi.us.kg/?id=amc-movie
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",VOA 美国之音
+https://histar.zapi.us.kg/?id=voa
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",History-2 频道
+https://histar.zapi.us.kg/?id=history-2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",滚动力 rollor
+https://histar.zapi.us.kg/?id=rollor
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",TBS TV
+https://histar.zapi.us.kg/?id=tbs-tv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",KTVHD
+https://histar.zapi.us.kg/?id=ktvhd
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro Vellithirai
+https://histar.zapi.us.kg/?id=astro-vellithirai
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro GolfChannel
+https://histar.zapi.us.kg/?id=astro-golfchannel
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",CNN International
+https://histar.zapi.us.kg/?id=cnn-international
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SPOTV
+https://histar.zapi.us.kg/?id=spotv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",TRACE Sport Stars
+https://histar.zapi.us.kg/?id=trace-sport-stars
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",KBS 2
+https://histar.zapi.us.kg/?id=kbs-2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SBS M
+https://histar.zapi.us.kg/?id=sbs-m
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",澳门莲花卫视
+https://histar.zapi.us.kg/?id=lotustv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",镜电视新闻台
+https://histar.zapi.us.kg/?id=mnews
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",猪哥亮歌厅秀
+https://histar.zapi.us.kg/?id=zglgtx
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",E乐
+https://histar.zapi.us.kg/?id=singtel-tv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",OKEY
+https://histar.zapi.us.kg/?id=okey
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro SuperSport 1
+https://histar.zapi.us.kg/?id=super-sports1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro SuperSport 2
+https://histar.zapi.us.kg/?id=super-sports2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro SuperSport 3
+https://histar.zapi.us.kg/?id=super-sports3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro SuperSport 4
+https://histar.zapi.us.kg/?id=super-sports4
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ESPN
+https://histar.zapi.us.kg/?id=espn
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ROCK Entertainment
+https://histar.zapi.us.kg/?id=rock-entertaiment
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",MyCinema Europe HD
+https://histar.zapi.us.kg/?id=mycinema-europe
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",尼克儿童频道
+https://histar.zapi.us.kg/?id=nickelodeon
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",探索科学频道
+https://histar.zapi.us.kg/?id=discovery-sci
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",探索亚洲频道
+https://histar.zapi.us.kg/?id=discovery-asia
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",DMAX
+https://histar.zapi.us.kg/?id=dmax
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",美食星球频道
+https://histar.zapi.us.kg/?id=food-planet
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",动物星球频道
+https://histar.zapi.us.kg/?id=animal-planet
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Asian Food Network
+https://histar.zapi.us.kg/?id=asian-food-network
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",tvN
+https://histar.zapi.us.kg/?id=tvn
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",WWE
+https://histar.zapi.us.kg/?id=wwe
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",KLT-靖天国际台
+https://histar.zapi.us.kg/?id=jtgj
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SBN 全球财经台
+https://histar.zapi.us.kg/?id=sbn
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",TV9
+https://histar.zapi.us.kg/?id=tv9
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",CM+
+https://histar.zapi.us.kg/?id=cm-plus
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",TV1
+https://histar.zapi.us.kg/?id=tv1-my
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",TV2
+https://histar.zapi.us.kg/?id=tv2-my
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",TV3
+https://histar.zapi.us.kg/?id=tv3-my
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",AXN
+https://histar.zapi.us.kg/?id=axn
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",TVS
+https://histar.zapi.us.kg/?id=tvs
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Mediacorp Vasantham
+https://histar.zapi.us.kg/?id=mediacorp-vasantham
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Gem
+https://histar.zapi.us.kg/?id=gem
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Boo
+https://histar.zapi.us.kg/?id=boo
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",NBA
+https://histar.zapi.us.kg/?id=nba
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",HLN
+https://histar.zapi.us.kg/?id=cnn-hln
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",fun 探索娱乐台
+https://histar.zapi.us.kg/?id=festival4k
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",CNN
+https://histar.zapi.us.kg/?id=cnn
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ELTV生活英語台
+https://histar.zapi.us.kg/?id=eltv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",SBS
+https://histar.zapi.us.kg/?id=sbs
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro AOD 311 国语
+https://histar.zapi.us.kg/?id=astro-aod
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Astro AOD 311 粤语
+https://histar.zapi.us.kg/?id=astro-aod-311-hk
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",韩国娱乐台 KMTV
+https://histar.zapi.us.kg/?id=kmtv
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ELTA 生活旅游台
+https://histar.zapi.us.kg/?id=elta-lifetravel
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",CI 罪案侦查频道
+https://histar.zapi.us.kg/?id=ci
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",寰宇新闻台湾台
+https://histar.zapi.us.kg/?id=global-news-tw
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",半岛国际新闻台
+https://histar.zapi.us.kg/?id=aljazeera
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",影迷数位纪实台
+https://histar.zapi.us.kg/?id=ymswjst
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",Lifetime 娱乐频道
+https://histar.zapi.us.kg/?id=fans-cinema
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",TLC 旅游生活頻道
+https://histar.zapi.us.kg/?id=tlc
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",靖洋卡通 NiceBingo
+https://histar.zapi.us.kg/?id=nice-bingo
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",ARIRANG 阿里郎频道
+https://histar.zapi.us.kg/?id=arirang
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",视纳华仁纪实频道
+https://histar.zapi.us.kg/?id=cnex
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",LiveABC 互动英语频道
+https://histar.zapi.us.kg/?id=liveabc
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",myTV SUPER直播足球1台
+https://histar.zapi.us.kg/?id=mytv-super-soccer1
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",myTV SUPER直播足球2台
+https://histar.zapi.us.kg/?id=mytv-super-soccer2
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",myTV SUPER直播足球3台
+https://histar.zapi.us.kg/?id=mytv-super-soccer3
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",myTV SUPER直播足球4台
+https://histar.zapi.us.kg/?id=mytv-super-soccer4
+#EXTINF:-1 tvg-logo="https://autumnsirius.github.io/tv/.png"  group-title="维护",DreamWorks 梦工厂动画
+https://histar.zapi.us.kg/?id=dreamworks
+
+
+
+
+
+
+
+
+
